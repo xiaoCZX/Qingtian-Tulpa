@@ -72,7 +72,7 @@
         </trackAudioParameters>
         <editParameter parameterIndex="0" slotIndex="4294967280"/>
       </audioTrack>
-      <audioTrack automationLaneOpenState="false" id="10002" index="2" select="false" visible="true">
+      <audioTrack automationLaneOpenState="false" id="10002" index="2" select="true" visible="true">
         <trackParameters trackHeight="134" trackHue="267" trackMinimized="false">
           <name>原唱</name>
         </trackParameters>
@@ -144,7 +144,7 @@
             <parameter index="0" name="volume" parameterValue="1"/>
             <parameter index="1" name="static gain" parameterValue="1"/>
           </component>
-          <component componentGuid="56c974a7-53db-46f8-81bd-16ef15e29133" componentID="Audition.Mute" id="clipMute" name="Mute" powered="true">
+          <component componentGuid="caaae0fd-17b5-4db4-9b73-8f139fd30d99" componentID="Audition.Mute" id="clipMute" name="Mute" powered="true">
             <parameter index="0" parameterValue="0"/>
             <parameter index="1" name="mute" parameterValue="0"/>
           </component>
@@ -232,12 +232,12 @@
           </component>
         </trackAudioParameters>
         <editParameter parameterIndex="0" slotIndex="4294967280"/>
-        <audioClip clipAutoCrossfade="true" crossFadeHeadClipID="-1" crossFadeTailClipID="-1" endPoint="12947590" fileID="1" hue="-1" id="0" lockedInTime="false" looped="false" name="晴天 (伴奏) 48000 1" offline="false" select="false" sourceInPoint="0" sourceOutPoint="12947590" startPoint="0" zOrder="0">
+        <audioClip clipAutoCrossfade="true" crossFadeHeadClipID="-1" crossFadeTailClipID="-1" endPoint="12947590" fileID="2" hue="-1" id="0" lockedInTime="false" looped="false" name="晴天 (伴奏) 48000 1" offline="false" select="false" sourceInPoint="0" sourceOutPoint="12947590" startPoint="0" zOrder="0">
           <component componentGuid="9f5a8bd0-2d6f-43c4-a75e-b4afef88d4d8" componentID="Audition.Fader" id="clipGain" name="volume" powered="true">
             <parameter index="0" name="volume" parameterValue="1"/>
             <parameter index="1" name="static gain" parameterValue="1"/>
           </component>
-          <component componentGuid="a8e64b46-e9ac-4bf9-934b-754ca7602ca7" componentID="Audition.Mute" id="clipMute" name="Mute" powered="true">
+          <component componentGuid="f123209f-f04d-4876-a351-211cf16a09b7" componentID="Audition.Mute" id="clipMute" name="Mute" powered="true">
             <parameter index="0" parameterValue="0"/>
             <parameter index="1" name="mute" parameterValue="0"/>
           </component>
@@ -254,7 +254,7 @@
           </channelMap>
         </audioClip>
       </audioTrack>
-      <audioTrack automationLaneOpenState="false" id="10004" index="4" select="true" visible="true">
+      <audioTrack automationLaneOpenState="false" id="10004" index="4" select="false" visible="true">
         <trackParameters trackHeight="134" trackHue="182" trackMinimized="false">
           <name>童年的...残障终至</name>
         </trackParameters>
@@ -321,12 +321,12 @@
           </component>
         </trackAudioParameters>
         <editParameter parameterIndex="0" slotIndex="4294967280"/>
-        <audioClip clipAutoCrossfade="true" crossFadeHeadClipID="-1" crossFadeTailClipID="-1" endPoint="1898251" fileID="2" hue="-1" id="0" lockedInTime="false" looped="false" name="残障终至-童年的荡秋千，随记忆一直晃到现在" offline="false" select="false" sourceInPoint="127614" sourceOutPoint="291685" startPoint="1734180" zOrder="0">
+        <audioClip clipAutoCrossfade="true" crossFadeHeadClipID="-1" crossFadeTailClipID="-1" endPoint="1898251" fileID="1" hue="-1" id="0" lockedInTime="false" looped="false" name="残障终至-童年的荡秋千，随记忆一直晃到现在" offline="false" select="false" sourceInPoint="127614" sourceOutPoint="291685" startPoint="1734180" zOrder="0">
           <component componentGuid="2450594a-b5fe-44f5-bb98-a40108f7a457" componentID="Audition.Fader" id="clipGain" name="volume" powered="true">
             <parameter index="0" name="volume" parameterValue="1"/>
             <parameter index="1" name="static gain" parameterValue="1"/>
           </component>
-          <component componentGuid="da578927-4c69-4ea7-93a6-133bf9bc1f87" componentID="Audition.Mute" id="clipMute" name="Mute" powered="true">
+          <component componentGuid="d7d07856-19ea-4be3-a95a-4d34ac6619f3" componentID="Audition.Mute" id="clipMute" name="Mute" powered="true">
             <parameter index="0" parameterValue="0"/>
             <parameter index="1" name="mute" parameterValue="0"/>
           </component>
@@ -342,12 +342,12 @@
             <channel index="1" sourceIndex="1"/>
           </channelMap>
         </audioClip>
-        <audioClip clipAutoCrossfade="true" crossFadeHeadClipID="-1" crossFadeTailClipID="-1" endPoint="1934851" fileID="2" hue="-1" id="1" lockedInTime="false" looped="false" name="残障终至-童年的荡秋千，随记忆一直晃到现在" offline="false" select="false" sourceInPoint="307804" sourceOutPoint="339033" startPoint="1903622" zOrder="1">
+        <audioClip clipAutoCrossfade="true" crossFadeHeadClipID="-1" crossFadeTailClipID="-1" endPoint="1934851" fileID="1" hue="-1" id="1" lockedInTime="false" looped="false" name="残障终至-童年的荡秋千，随记忆一直晃到现在" offline="false" select="false" sourceInPoint="307804" sourceOutPoint="339033" startPoint="1903622" zOrder="1">
           <component componentGuid="0f16e439-daea-46bb-bdc6-8ba77f0b7b9d" componentID="Audition.Fader" id="clipGain" name="volume" powered="true">
             <parameter index="0" name="volume" parameterValue="1"/>
             <parameter index="1" name="static gain" parameterValue="1"/>
           </component>
-          <component componentGuid="31177998-fa93-472a-a71a-65e084a47091" componentID="Audition.Mute" id="clipMute" name="Mute" powered="true">
+          <component componentGuid="5f3497f2-9d61-484f-a4a1-f3e0e86e53aa" componentID="Audition.Mute" id="clipMute" name="Mute" powered="true">
             <parameter index="0" parameterValue="0"/>
             <parameter index="1" name="mute" parameterValue="0"/>
           </component>
@@ -363,12 +363,12 @@
             <channel index="1" sourceIndex="1"/>
           </channelMap>
         </audioClip>
-        <audioClip clipAutoCrossfade="true" crossFadeHeadClipID="-1" crossFadeTailClipID="-1" endPoint="2064000" fileID="2" hue="-1" id="2" lockedInTime="false" looped="false" name="残障终至-童年的荡秋千，随记忆一直晃到现在" offline="false" select="true" sourceInPoint="339033" sourceOutPoint="455109" startPoint="1947924" zOrder="3">
+        <audioClip clipAutoCrossfade="true" crossFadeHeadClipID="-1" crossFadeTailClipID="-1" endPoint="2064000" fileID="1" hue="-1" id="2" lockedInTime="false" looped="false" name="残障终至-童年的荡秋千，随记忆一直晃到现在" offline="false" select="true" sourceInPoint="339033" sourceOutPoint="455109" startPoint="1947924" zOrder="3">
           <component componentGuid="60c38d4f-56f7-42f1-873a-bfaeef57f544" componentID="Audition.Fader" id="clipGain" name="volume" powered="true">
             <parameter index="0" name="volume" parameterValue="1"/>
             <parameter index="1" name="static gain" parameterValue="1"/>
           </component>
-          <component componentGuid="8b4521ea-69a0-430c-a35d-1de2edfeea82" componentID="Audition.Mute" id="clipMute" name="Mute" powered="true">
+          <component componentGuid="31237470-87e3-4676-8fd5-2d97e337bc6e" componentID="Audition.Mute" id="clipMute" name="Mute" powered="true">
             <parameter index="0" parameterValue="0"/>
             <parameter index="1" name="mute" parameterValue="0"/>
           </component>
@@ -590,8 +590,8 @@
         <editParameter parameterIndex="0" slotIndex="4294967280"/>
       </masterTrack>
     </tracks>
-    <sessionState ctiPosition="2115537" smpteStart="0">
-      <selectionState selectionDuration="0" selectionStart="2115537"/>
+    <sessionState ctiPosition="2081075" smpteStart="0">
+      <selectionState selectionDuration="0" selectionStart="2081075"/>
       <viewState horizontalViewDuration="601756" horizontalViewStart="1621154" trackControlsWidth="224" verticalScrollOffset="0"/>
       <timeFormatState beatsPerBar="4" beatsPerMinute="120" customFrameRate="12" linkToDefaultTimeSettings="true" noteLength="4" subdivisions="16" timeCodeDropFrame="false" timeCodeFrameRate="30" timeCodeNTSC="false" timeFormat="timeFormatDecimal"/>
       <mixingOptionState defaultPanModeLogarithmic="false" panPower="-3" playOverlappingClips="false"/>
@@ -608,9 +608,9 @@
             xmlns:xmpDM="http://ns.adobe.com/xmp/1.0/DynamicMedia/">
          <xmp:CreatorTool>Adobe Audition 25.0 (Windows)</xmp:CreatorTool>
          <xmp:CreateDate>2025-12-05T22:48:09+08:00</xmp:CreateDate>
-         <xmp:MetadataDate>2025-12-05T23:06:06+08:00</xmp:MetadataDate>
-         <xmp:ModifyDate>2025-12-05T23:06:06+08:00</xmp:ModifyDate>
-         <xmpMM:InstanceID>xmp.iid:3c44be81-85cd-b643-8569-b1eda096acac</xmpMM:InstanceID>
+         <xmp:MetadataDate>2025-12-07T22:40:45+08:00</xmp:MetadataDate>
+         <xmp:ModifyDate>2025-12-07T22:40:45+08:00</xmp:ModifyDate>
+         <xmpMM:InstanceID>xmp.iid:10634e38-34c0-8045-bd7f-b50531536586</xmpMM:InstanceID>
          <xmpMM:DocumentID>xmp.did:3c44be81-85cd-b643-8569-b1eda096acac</xmpMM:DocumentID>
          <xmpMM:OriginalDocumentID>xmp.did:d28552d1-284a-cd41-92a1-35f3fe4e13e7</xmpMM:OriginalDocumentID>
          <xmpMM:History>
@@ -633,6 +633,34 @@
                   <stEvt:action>saved</stEvt:action>
                   <stEvt:instanceID>xmp.iid:3c44be81-85cd-b643-8569-b1eda096acac</stEvt:instanceID>
                   <stEvt:when>2025-12-05T23:06:06+08:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe Audition 25.0 (Windows)</stEvt:softwareAgent>
+                  <stEvt:changed>/</stEvt:changed>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:a9ad57f0-4e18-664c-a6ba-26ad7bb329cc</stEvt:instanceID>
+                  <stEvt:when>2025-12-07T22:39:50+08:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe Audition 25.0 (Windows)</stEvt:softwareAgent>
+                  <stEvt:changed>/metadata</stEvt:changed>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:75ad676b-6c95-184b-b98a-681b0dc2b2cd</stEvt:instanceID>
+                  <stEvt:when>2025-12-07T22:39:50+08:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe Audition 25.0 (Windows)</stEvt:softwareAgent>
+                  <stEvt:changed>/</stEvt:changed>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:01ceaea8-7bca-954b-9019-c04c95c12fce</stEvt:instanceID>
+                  <stEvt:when>2025-12-07T22:40:45+08:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe Audition 25.0 (Windows)</stEvt:softwareAgent>
+                  <stEvt:changed>/metadata</stEvt:changed>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:10634e38-34c0-8045-bd7f-b50531536586</stEvt:instanceID>
+                  <stEvt:when>2025-12-07T22:40:45+08:00</stEvt:when>
                   <stEvt:softwareAgent>Adobe Audition 25.0 (Windows)</stEvt:softwareAgent>
                   <stEvt:changed>/</stEvt:changed>
                </rdf:li>
@@ -765,21 +793,21 @@
   </session>
 
   <files>
-    <file absolutePath="D:\Qingtian-Tulpa\晴天\Conformed Files\周杰伦 - 晴天 48000 1.wav" id="0" mediaHandler="AmioWav" recoveryID="447a04ef-f7f6-4dde-bee1-18ee45cd5220" relativePath="../Conformed Files/周杰伦 - 晴天 48000 1.wav"/>
-    <file absolutePath="D:\Qingtian-Tulpa\晴天\Conformed Files\晴天 (伴奏) 48000 1.wav" id="1" mediaHandler="AmioWav" recoveryID="2b0063d0-8083-4390-a667-dd36e1b12652" relativePath="../Conformed Files/晴天 (伴奏) 48000 1.wav"/>
-    <file absolutePath="D:\Qingtian-Tulpa\素材\残章终至\残障终至-童年的荡秋千，随记忆一直晃到现在.m4a" id="2" mediaHandler="ImporterHost" recoveryID="79d648ea-8836-48b0-a9ed-4fb2f8483e1f" relativePath="../../素材/残章终至/残障终至-童年的荡秋千，随记忆一直晃到现在.m4a"/>
+    <file absolutePath="D:\Qingtian-Tulpa\晴天\Backup\已导入文件\周杰伦 - 晴天 48000 1.wav" id="0" importerPrivateSettings="Compression:0:0;LargeFileSupport:0:0;SampleType:0:1;" mediaHandler="AmioWav" relativePath="已导入文件/周杰伦 - 晴天 48000 1.wav"/>
+    <file absolutePath="D:\Qingtian-Tulpa\晴天\Backup\已导入文件\残障终至-童年的荡秋千，随记忆一直晃到现在.wav" id="1" mediaHandler="ImporterHost" relativePath="已导入文件/残障终至-童年的荡秋千，随记忆一直晃到现在.wav"/>
+    <file absolutePath="D:\Qingtian-Tulpa\晴天\Backup\已导入文件\晴天 (伴奏) 48000 1.wav" id="2" importerPrivateSettings="Compression:0:0;LargeFileSupport:0:0;SampleType:0:1;" mediaHandler="AmioWav" relativePath="已导入文件/晴天 (伴奏) 48000 1.wav"/>
   </files>
 
   <audioDevice inputID="22222222-2222-2222-2222-22222222" outputID="11111111-1111-1111-1111-11111111">
     <inputPort id="1" name="默认立体声输入"/>
-    <inputPort id="2" name="[01M] 系统默认 - Voicemeeter Out B3 (VB-Audio Voicemeeter VAIO) 1"/>
-    <inputPort id="3" name="[02M] 系统默认 - Voicemeeter Out B3 (VB-Audio Voicemeeter VAIO) 2"/>
-    <inputPort id="4" name="[01S] 系统默认 - Voicemeeter Out B3 (VB-Audio Voicemeeter VAIO) 1"/>
+    <inputPort id="2" name="[01M] 系统默认 - 麦克风 (USB Audio Device) 1"/>
+    <inputPort id="3" name="[02M] 系统默认 - 麦克风 (USB Audio Device) 2"/>
+    <inputPort id="4" name="[01S] 系统默认 - 麦克风 (USB Audio Device) 1"/>
     <outputPort id="1" name="默认输出"/>
-    <outputPort id="2" name="[01M] 系统默认 - 耳机 (CIYINSO Mars2) 1"/>
-    <outputPort id="3" name="[02M] 系统默认 - 耳机 (CIYINSO Mars2) 2"/>
+    <outputPort id="2" name="[01M] 系统默认 - 扬声器 (USB Audio Device) 1"/>
+    <outputPort id="3" name="[02M] 系统默认 - 扬声器 (USB Audio Device) 2"/>
     <outputPort id="4" name="默认立体声输出"/>
-    <outputPort id="5" name="[01S] 系统默认 - 耳机 (CIYINSO Mars2) 1"/>
+    <outputPort id="5" name="[01S] 系统默认 - 扬声器 (USB Audio Device) 1"/>
     <outputPort id="6" name="默认环绕声输出"/>
   </audioDevice>
 
