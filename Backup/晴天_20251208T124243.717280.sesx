@@ -85,7 +85,7 @@
           </component>
           <component componentGuid="df145205-236e-4447-b28b-b9e1cb7e1e1e" componentID="Audition.Mute" id="trackMute" name="Mute" powered="true">
             <parameter index="0" parameterValue="0"/>
-            <parameter index="1" name="mute" parameterValue="1"/>
+            <parameter index="1" name="mute" parameterValue="0"/>
           </component>
           <component componentGuid="1ae0d938-5d5b-44eb-a16e-173c85986cc6" componentID="Audition.StereoPanner" id="trackPan" name="StereoPanner" powered="true">
             <parameter index="0" name="声像" parameterValue="0"/>
@@ -144,7 +144,7 @@
             <parameter index="0" name="volume" parameterValue="1"/>
             <parameter index="1" name="static gain" parameterValue="1"/>
           </component>
-          <component componentGuid="539c01e3-043f-4685-bf24-ff90d08c6db6" componentID="Audition.Mute" id="clipMute" name="Mute" powered="true">
+          <component componentGuid="5f4f8eda-1eb7-4137-86fb-1362ce9d9e41" componentID="Audition.Mute" id="clipMute" name="Mute" powered="true">
             <parameter index="0" parameterValue="0"/>
             <parameter index="1" name="mute" parameterValue="0"/>
           </component>
@@ -237,7 +237,7 @@
             <parameter index="0" name="volume" parameterValue="1"/>
             <parameter index="1" name="static gain" parameterValue="1"/>
           </component>
-          <component componentGuid="78e1a05a-0084-4e52-9c84-340c3d7c354e" componentID="Audition.Mute" id="clipMute" name="Mute" powered="true">
+          <component componentGuid="3bf659b2-9111-4c8f-9810-e60e322b06d6" componentID="Audition.Mute" id="clipMute" name="Mute" powered="true">
             <parameter index="0" parameterValue="0"/>
             <parameter index="1" name="mute" parameterValue="0"/>
           </component>
@@ -326,7 +326,7 @@
             <parameter index="0" name="volume" parameterValue="1"/>
             <parameter index="1" name="static gain" parameterValue="1"/>
           </component>
-          <component componentGuid="572dd7bd-8dc7-4c8e-921b-1b043fa72dbf" componentID="Audition.Mute" id="clipMute" name="Mute" powered="true">
+          <component componentGuid="2e621ee7-e0d0-4f0c-b882-0504a784eb2c" componentID="Audition.Mute" id="clipMute" name="Mute" powered="true">
             <parameter index="0" parameterValue="0"/>
             <parameter index="1" name="mute" parameterValue="0"/>
           </component>
@@ -347,7 +347,7 @@
             <parameter index="0" name="volume" parameterValue="1"/>
             <parameter index="1" name="static gain" parameterValue="1"/>
           </component>
-          <component componentGuid="2d5bb125-9bf0-43a8-861f-b21d94268e2f" componentID="Audition.Mute" id="clipMute" name="Mute" powered="true">
+          <component componentGuid="30441df9-1122-40fc-b0a7-377ff85fbda3" componentID="Audition.Mute" id="clipMute" name="Mute" powered="true">
             <parameter index="0" parameterValue="0"/>
             <parameter index="1" name="mute" parameterValue="0"/>
           </component>
@@ -368,7 +368,7 @@
             <parameter index="0" name="volume" parameterValue="1"/>
             <parameter index="1" name="static gain" parameterValue="1"/>
           </component>
-          <component componentGuid="92d483cf-7bce-4ce6-a090-90ef24458d60" componentID="Audition.Mute" id="clipMute" name="Mute" powered="true">
+          <component componentGuid="f450ec33-eb80-408e-90fb-2430a86dd55a" componentID="Audition.Mute" id="clipMute" name="Mute" powered="true">
             <parameter index="0" parameterValue="0"/>
             <parameter index="1" name="mute" parameterValue="0"/>
           </component>
@@ -590,8 +590,8 @@
         <editParameter parameterIndex="0" slotIndex="4294967280"/>
       </masterTrack>
     </tracks>
-    <sessionState ctiPosition="2093331" smpteStart="0">
-      <selectionState selectionDuration="0" selectionStart="2093331"/>
+    <sessionState ctiPosition="2081075" smpteStart="0">
+      <selectionState selectionDuration="0" selectionStart="2081075"/>
       <viewState horizontalViewDuration="601756" horizontalViewStart="1621154" trackControlsWidth="224" verticalScrollOffset="0"/>
       <timeFormatState beatsPerBar="4" beatsPerMinute="120" customFrameRate="12" linkToDefaultTimeSettings="true" noteLength="4" subdivisions="16" timeCodeDropFrame="false" timeCodeFrameRate="30" timeCodeNTSC="false" timeFormat="timeFormatDecimal"/>
       <mixingOptionState defaultPanModeLogarithmic="false" panPower="-3" playOverlappingClips="false"/>
@@ -608,10 +608,10 @@
             xmlns:xmpDM="http://ns.adobe.com/xmp/1.0/DynamicMedia/">
          <xmp:CreatorTool>Adobe Audition 25.0 (Windows)</xmp:CreatorTool>
          <xmp:CreateDate>2025-12-05T22:48:09+08:00</xmp:CreateDate>
-         <xmp:MetadataDate>2025-12-08T12:44:06+08:00</xmp:MetadataDate>
-         <xmp:ModifyDate>2025-12-08T12:44:06+08:00</xmp:ModifyDate>
-         <xmpMM:InstanceID>xmp.iid:aac52f81-0f49-5f46-b2f9-74a541e923a5</xmpMM:InstanceID>
-         <xmpMM:DocumentID>xmp.did:3c44be81-85cd-b643-8569-b1eda096acac</xmpMM:DocumentID>
+         <xmp:MetadataDate>2025-12-08T12:42:43+08:00</xmp:MetadataDate>
+         <xmp:ModifyDate>2025-12-08T12:42:43+08:00</xmp:ModifyDate>
+         <xmpMM:InstanceID>xmp.iid:e31b500d-fca5-104b-bbc2-e02cfa079c33</xmpMM:InstanceID>
+         <xmpMM:DocumentID>xmp.did:e31b500d-fca5-104b-bbc2-e02cfa079c33</xmpMM:DocumentID>
          <xmpMM:OriginalDocumentID>xmp.did:d28552d1-284a-cd41-92a1-35f3fe4e13e7</xmpMM:OriginalDocumentID>
          <xmpMM:History>
             <rdf:Seq>
@@ -680,23 +680,23 @@
                </rdf:li>
                <rdf:li rdf:parseType="Resource">
                   <stEvt:action>saved</stEvt:action>
-                  <stEvt:instanceID>xmp.iid:2b7aa0f6-5443-de4c-a15f-2cce94c9e9e6</stEvt:instanceID>
-                  <stEvt:when>2025-12-08T12:44:06+08:00</stEvt:when>
+                  <stEvt:instanceID>xmp.iid:a4bd51ef-bfb9-1c4a-88b9-4a83382b8860</stEvt:instanceID>
+                  <stEvt:when>2025-12-08T12:42:43+08:00</stEvt:when>
                   <stEvt:softwareAgent>Adobe Audition 25.0 (Windows)</stEvt:softwareAgent>
                   <stEvt:changed>/metadata</stEvt:changed>
                </rdf:li>
                <rdf:li rdf:parseType="Resource">
                   <stEvt:action>saved</stEvt:action>
-                  <stEvt:instanceID>xmp.iid:aac52f81-0f49-5f46-b2f9-74a541e923a5</stEvt:instanceID>
-                  <stEvt:when>2025-12-08T12:44:06+08:00</stEvt:when>
+                  <stEvt:instanceID>xmp.iid:e31b500d-fca5-104b-bbc2-e02cfa079c33</stEvt:instanceID>
+                  <stEvt:when>2025-12-08T12:42:43+08:00</stEvt:when>
                   <stEvt:softwareAgent>Adobe Audition 25.0 (Windows)</stEvt:softwareAgent>
                   <stEvt:changed>/</stEvt:changed>
                </rdf:li>
             </rdf:Seq>
          </xmpMM:History>
          <xmpMM:DerivedFrom rdf:parseType="Resource">
-            <stRef:instanceID>xmp.iid:e31cd019-781f-984a-944b-f0baf1c29759</stRef:instanceID>
-            <stRef:documentID>xmp.did:d28552d1-284a-cd41-92a1-35f3fe4e13e7</stRef:documentID>
+            <stRef:instanceID>xmp.iid:a4bd51ef-bfb9-1c4a-88b9-4a83382b8860</stRef:instanceID>
+            <stRef:documentID>xmp.did:3c44be81-85cd-b643-8569-b1eda096acac</stRef:documentID>
             <stRef:originalDocumentID>xmp.did:d28552d1-284a-cd41-92a1-35f3fe4e13e7</stRef:originalDocumentID>
          </xmpMM:DerivedFrom>
          <dc:format>application/xml</dc:format>
@@ -821,9 +821,9 @@
   </session>
 
   <files>
-    <file absolutePath="D:\Qingtian-Tulpa\晴天\Backup\已导入文件\周杰伦 - 晴天 48000 1.wav" id="0" importerPrivateSettings="Compression:0:0;LargeFileSupport:0:0;SampleType:0:1;" mediaHandler="AmioWav" relativePath="晴天/Backup/已导入文件/周杰伦 - 晴天 48000 1.wav"/>
-    <file absolutePath="D:\Qingtian-Tulpa\晴天\Backup\已导入文件\晴天 (伴奏) 48000 1.wav" id="1" importerPrivateSettings="Compression:0:0;LargeFileSupport:0:0;SampleType:0:1;" mediaHandler="AmioWav" relativePath="晴天/Backup/已导入文件/晴天 (伴奏) 48000 1.wav"/>
-    <file absolutePath="D:\Qingtian-Tulpa\晴天\Backup\已导入文件\残障终至-童年的荡秋千，随记忆一直晃到现在.wav" id="2" mediaHandler="ImporterHost" relativePath="晴天/Backup/已导入文件/残障终至-童年的荡秋千，随记忆一直晃到现在.wav"/>
+    <file absolutePath="D:\Qingtian-Tulpa\晴天\Backup\已导入文件\周杰伦 - 晴天 48000 1.wav" id="0" importerPrivateSettings="Compression:0:0;LargeFileSupport:0:0;SampleType:0:1;" mediaHandler="AmioWav" recoveryID="d75c6527-1cee-4154-9474-5365952c0c32" relativePath="../晴天/Backup/已导入文件/周杰伦 - 晴天 48000 1.wav"/>
+    <file absolutePath="D:\Qingtian-Tulpa\晴天\Backup\已导入文件\晴天 (伴奏) 48000 1.wav" id="1" importerPrivateSettings="Compression:0:0;LargeFileSupport:0:0;SampleType:0:1;" mediaHandler="AmioWav" recoveryID="3d9dcfd0-b31a-45c0-bde2-70da1bdb0b6b" relativePath="../晴天/Backup/已导入文件/晴天 (伴奏) 48000 1.wav"/>
+    <file absolutePath="D:\Qingtian-Tulpa\晴天\Backup\已导入文件\残障终至-童年的荡秋千，随记忆一直晃到现在.wav" id="2" mediaHandler="ImporterHost" recoveryID="2e55c651-7192-417f-9e6e-1762c9d8e2bb" relativePath="../晴天/Backup/已导入文件/残障终至-童年的荡秋千，随记忆一直晃到现在.wav"/>
   </files>
 
   <audioDevice inputID="22222222-2222-2222-2222-22222222" outputID="11111111-1111-1111-1111-11111111">
