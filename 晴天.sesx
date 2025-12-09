@@ -4,8 +4,8 @@
 
   <session appBuild="25.0.0.47" appVersion="25.0" audioChannelType="stereo" bitDepth="32" duration="13354338" sampleRate="48000">
     <tracks>
-      <audioTrack automationLaneOpenState="false" id="10001" index="1" select="false" visible="true">
-        <trackParameters trackHeight="134" trackHue="160" trackMinimized="false">
+      <audioTrack automationLaneOpenState="false" id="10001" index="1" select="true" visible="true">
+        <trackParameters trackHeight="88" trackHue="160" trackMinimized="false">
           <name>轨道 1</name>
         </trackParameters>
         <trackAudioParameters audioChannelType="stereo" automationMode="1" monitoring="false" recordArmed="false" solo="false" soloSafe="false">
@@ -72,8 +72,8 @@
         </trackAudioParameters>
         <editParameter parameterIndex="0" slotIndex="4294967280"/>
       </audioTrack>
-      <audioTrack automationLaneOpenState="false" id="10002" index="2" select="true" visible="true">
-        <trackParameters trackHeight="134" trackHue="267" trackMinimized="false">
+      <audioTrack automationLaneOpenState="false" id="10002" index="2" select="false" visible="true">
+        <trackParameters trackHeight="88" trackHue="267" trackMinimized="false">
           <name>原唱</name>
         </trackParameters>
         <trackAudioParameters audioChannelType="stereo" automationMode="1" monitoring="false" recordArmed="false" solo="false" soloSafe="false">
@@ -144,7 +144,7 @@
             <parameter index="0" name="volume" parameterValue="1"/>
             <parameter index="1" name="static gain" parameterValue="1"/>
           </component>
-          <component componentGuid="539c01e3-043f-4685-bf24-ff90d08c6db6" componentID="Audition.Mute" id="clipMute" name="Mute" powered="true">
+          <component componentGuid="45bd357b-dbf0-4b99-8915-e42247aa0f9b" componentID="Audition.Mute" id="clipMute" name="Mute" powered="true">
             <parameter index="0" parameterValue="0"/>
             <parameter index="1" name="mute" parameterValue="0"/>
           </component>
@@ -166,7 +166,7 @@
         </audioClip>
       </audioTrack>
       <audioTrack automationLaneOpenState="false" id="10003" index="3" select="false" visible="true">
-        <trackParameters trackHeight="134" trackHue="51" trackMinimized="false">
+        <trackParameters trackHeight="88" trackHue="51" trackMinimized="false">
           <name>伴奏</name>
         </trackParameters>
         <trackAudioParameters audioChannelType="stereo" automationMode="1" monitoring="false" recordArmed="false" solo="false" soloSafe="false">
@@ -237,7 +237,7 @@
             <parameter index="0" name="volume" parameterValue="1"/>
             <parameter index="1" name="static gain" parameterValue="1"/>
           </component>
-          <component componentGuid="78e1a05a-0084-4e52-9c84-340c3d7c354e" componentID="Audition.Mute" id="clipMute" name="Mute" powered="true">
+          <component componentGuid="d957b9e6-d2b7-4f86-a5a8-af3969d47adc" componentID="Audition.Mute" id="clipMute" name="Mute" powered="true">
             <parameter index="0" parameterValue="0"/>
             <parameter index="1" name="mute" parameterValue="0"/>
           </component>
@@ -255,7 +255,7 @@
         </audioClip>
       </audioTrack>
       <audioTrack automationLaneOpenState="false" id="10004" index="4" select="false" visible="true">
-        <trackParameters trackHeight="134" trackHue="182" trackMinimized="false">
+        <trackParameters trackHeight="88" trackHue="182" trackMinimized="false">
           <name>童年的...残障终至</name>
         </trackParameters>
         <trackAudioParameters audioChannelType="stereo" automationMode="1" monitoring="false" recordArmed="false" solo="false" soloSafe="false">
@@ -326,7 +326,7 @@
             <parameter index="0" name="volume" parameterValue="1"/>
             <parameter index="1" name="static gain" parameterValue="1"/>
           </component>
-          <component componentGuid="572dd7bd-8dc7-4c8e-921b-1b043fa72dbf" componentID="Audition.Mute" id="clipMute" name="Mute" powered="true">
+          <component componentGuid="c94a3e51-b835-43d9-9dfc-414f982173fb" componentID="Audition.Mute" id="clipMute" name="Mute" powered="true">
             <parameter index="0" parameterValue="0"/>
             <parameter index="1" name="mute" parameterValue="0"/>
           </component>
@@ -347,7 +347,7 @@
             <parameter index="0" name="volume" parameterValue="1"/>
             <parameter index="1" name="static gain" parameterValue="1"/>
           </component>
-          <component componentGuid="2d5bb125-9bf0-43a8-861f-b21d94268e2f" componentID="Audition.Mute" id="clipMute" name="Mute" powered="true">
+          <component componentGuid="2234307d-feff-409f-885a-facdaa228d00" componentID="Audition.Mute" id="clipMute" name="Mute" powered="true">
             <parameter index="0" parameterValue="0"/>
             <parameter index="1" name="mute" parameterValue="0"/>
           </component>
@@ -363,12 +363,12 @@
             <channel index="1" sourceIndex="1"/>
           </channelMap>
         </audioClip>
-        <audioClip clipAutoCrossfade="true" crossFadeHeadClipID="-1" crossFadeTailClipID="-1" endPoint="2064000" fileID="2" hue="-1" id="2" lockedInTime="false" looped="false" name="残障终至-童年的荡秋千，随记忆一直晃到现在" offline="false" select="true" sourceInPoint="339033" sourceOutPoint="455109" startPoint="1947924" zOrder="3">
+        <audioClip clipAutoCrossfade="true" crossFadeHeadClipID="-1" crossFadeTailClipID="-1" endPoint="2064000" fileID="2" hue="-1" id="2" lockedInTime="false" looped="false" name="残障终至-童年的荡秋千，随记忆一直晃到现在" offline="false" select="false" sourceInPoint="339033" sourceOutPoint="455109" startPoint="1947924" zOrder="2">
           <component componentGuid="60c38d4f-56f7-42f1-873a-bfaeef57f544" componentID="Audition.Fader" id="clipGain" name="volume" powered="true">
             <parameter index="0" name="volume" parameterValue="1"/>
             <parameter index="1" name="static gain" parameterValue="1"/>
           </component>
-          <component componentGuid="92d483cf-7bce-4ce6-a090-90ef24458d60" componentID="Audition.Mute" id="clipMute" name="Mute" powered="true">
+          <component componentGuid="08b2ac22-1737-476b-b40d-d4fa05873202" componentID="Audition.Mute" id="clipMute" name="Mute" powered="true">
             <parameter index="0" parameterValue="0"/>
             <parameter index="1" name="mute" parameterValue="0"/>
           </component>
@@ -386,14 +386,14 @@
         </audioClip>
       </audioTrack>
       <audioTrack automationLaneOpenState="false" id="10005" index="5" select="false" visible="true">
-        <trackParameters trackHeight="134" trackHue="294" trackMinimized="false">
-          <name>轨道 5</name>
+        <trackParameters trackHeight="88" trackHue="294" trackMinimized="false">
+          <name>刮风这...弥望新</name>
         </trackParameters>
         <trackAudioParameters audioChannelType="stereo" automationMode="1" monitoring="false" recordArmed="false" solo="false" soloSafe="false">
           <trackOutput outputID="10000" type="trackID"/>
           <trackInput inputID="1"/>
           <component componentGuid="747d2464-f303-473f-b7fa-ecc131aefa26" componentID="Audition.Fader" id="trackFader" name="volume" powered="true">
-            <parameter index="0" name="volume" parameterValue="1"/>
+            <parameter index="0" name="volume" parameterValue="2.722701549530029296875"/>
             <parameter index="1" name="static gain" parameterValue="1"/>
           </component>
           <component componentGuid="61da5eb2-553b-42d0-834d-98c3ff1393dd" componentID="Audition.Mute" id="trackMute" name="Mute" powered="true">
@@ -452,16 +452,58 @@
           </component>
         </trackAudioParameters>
         <editParameter parameterIndex="0" slotIndex="4294967280"/>
+        <audioClip clipAutoCrossfade="true" crossFadeHeadClipID="-1" crossFadeTailClipID="-1" endPoint="4167006" fileID="3" hue="-1" id="0" lockedInTime="false" looped="false" name="刮风这天我试着握着你手" offline="false" select="false" sourceInPoint="24051" sourceOutPoint="122872" startPoint="4068185" zOrder="0">
+          <component componentGuid="dc9035d7-50aa-4c07-9dda-16fde9397155" componentID="Audition.Fader" id="clipGain" name="volume" powered="true">
+            <parameter index="0" name="volume" parameterValue="1"/>
+            <parameter index="1" name="static gain" parameterValue="1"/>
+          </component>
+          <component componentGuid="26ebfca6-d85d-4bb7-978d-df03ca357939" componentID="Audition.Mute" id="clipMute" name="Mute" powered="true">
+            <parameter index="0" parameterValue="0"/>
+            <parameter index="1" name="mute" parameterValue="0"/>
+          </component>
+          <component componentGuid="f9012eb2-31d7-4d88-9491-bc53d76094c5" componentID="Audition.StereoPanner" id="clipPan" name="StereoPanner" powered="true">
+            <parameter index="0" name="声像" parameterValue="0"/>
+          </component>
+          <fadeIn crossFadeLinkType="linkedAsymmetric" endPoint="0" shape="19" startPoint="0" type="log"/>
+          <fadeOut crossFadeLinkType="linkedAsymmetric" endPoint="98821" shape="19" startPoint="98821" type="log"/>
+          <editParameter parameterIndex="0" slotIndex="4294967280"/>
+          <editParameter parameterIndex="0" slotIndex="4294967281"/>
+          <channelMap>
+            <channel index="0" sourceIndex="0"/>
+            <channel index="1" sourceIndex="1"/>
+          </channelMap>
+        </audioClip>
+        <audioClip clipAutoCrossfade="true" crossFadeHeadClipID="-1" crossFadeTailClipID="-1" endPoint="4327178" fileID="3" hue="-1" id="1" lockedInTime="false" looped="false" name="刮风这天我试着握着你手" offline="false" select="false" sourceInPoint="138362" sourceOutPoint="290409" startPoint="4175131" zOrder="1">
+          <component componentGuid="33b195a3-04df-41e5-9c32-73dc6b59bd4f" componentID="Audition.Fader" id="clipGain" name="volume" powered="true">
+            <parameter index="0" name="volume" parameterValue="1"/>
+            <parameter index="1" name="static gain" parameterValue="1"/>
+          </component>
+          <component componentGuid="7e2bdd6c-4c8d-42e5-902e-c63dba152450" componentID="Audition.Mute" id="clipMute" name="Mute" powered="true">
+            <parameter index="0" parameterValue="0"/>
+            <parameter index="1" name="mute" parameterValue="0"/>
+          </component>
+          <component componentGuid="fa8d808d-8958-4507-ab3f-cbcd503641cd" componentID="Audition.StereoPanner" id="clipPan" name="StereoPanner" powered="true">
+            <parameter index="0" name="声像" parameterValue="0"/>
+          </component>
+          <fadeIn crossFadeLinkType="linkedAsymmetric" endPoint="0" shape="19" startPoint="0" type="log"/>
+          <fadeOut crossFadeLinkType="linkedAsymmetric" endPoint="152047" shape="19" startPoint="152047" type="log"/>
+          <editParameter parameterIndex="0" slotIndex="4294967281"/>
+          <editParameter parameterIndex="0" slotIndex="4294967280"/>
+          <channelMap>
+            <channel index="0" sourceIndex="0"/>
+            <channel index="1" sourceIndex="1"/>
+          </channelMap>
+        </audioClip>
       </audioTrack>
       <audioTrack automationLaneOpenState="false" id="10006" index="6" select="false" visible="true">
-        <trackParameters trackHeight="134" trackHue="92" trackMinimized="false">
-          <name>轨道 6</name>
+        <trackParameters trackHeight="88" trackHue="92" trackMinimized="false">
+          <name>但故事...童话世界</name>
         </trackParameters>
         <trackAudioParameters audioChannelType="stereo" automationMode="1" monitoring="false" recordArmed="false" solo="false" soloSafe="false">
           <trackOutput outputID="10000" type="trackID"/>
           <trackInput inputID="1"/>
           <component componentGuid="2084950a-d225-4a84-bd58-ce7977f9b5e3" componentID="Audition.Fader" id="trackFader" name="volume" powered="true">
-            <parameter index="0" name="volume" parameterValue="1"/>
+            <parameter index="0" name="volume" parameterValue="5.62341403961181640625"/>
             <parameter index="1" name="static gain" parameterValue="1"/>
           </component>
           <component componentGuid="4a639d3d-2d60-4b7e-9c26-b8870bb8bede" componentID="Audition.Mute" id="trackMute" name="Mute" powered="true">
@@ -520,9 +562,61 @@
           </component>
         </trackAudioParameters>
         <editParameter parameterIndex="0" slotIndex="4294967280"/>
+        <audioClip clipAutoCrossfade="true" crossFadeHeadClipID="-1" crossFadeTailClipID="-1" endPoint="12624000" fileID="4" hue="-1" id="0" lockedInTime="false" looped="false" name="晴天 最后一句" offline="false" select="false" sourceInPoint="0" sourceOutPoint="14930" startPoint="12609070" zOrder="5">
+          <component componentGuid="a194b084-491b-4516-a2fe-6892c72d6377" componentID="Audition.Fader" id="clipGain" name="volume" powered="true">
+            <parameter index="0" name="volume" parameterValue="1"/>
+            <parameter index="1" name="static gain" parameterValue="1"/>
+          </component>
+          <component componentGuid="8824df5a-7fe2-431d-a7ee-45ee2aea7028" componentID="Audition.Mute" id="clipMute" name="Mute" powered="true">
+            <parameter index="0" parameterValue="0"/>
+            <parameter index="1" name="mute" parameterValue="0"/>
+          </component>
+          <component componentGuid="69c05581-65f4-4e12-974b-ea80ad26ba17" componentID="Audition.StereoPanner" id="clipPan" name="StereoPanner" powered="true">
+            <parameter index="0" name="声像" parameterValue="0">
+              <parameterKeyframes enableSplines="false" readOnly="false">
+                <parameterKeyframe sampleOffset="14960" select="false" type="linear" value="0.5"/>
+              </parameterKeyframes>
+            </parameter>
+          </component>
+          <fadeIn crossFadeLinkType="linkedAsymmetric" endPoint="0" shape="19" startPoint="0" type="log"/>
+          <fadeOut crossFadeLinkType="linkedAsymmetric" endPoint="14930" shape="39" startPoint="14930" type="log"/>
+          <clipStretch adaptiveWindowSize="37" pitchAdjustment="0" preserveFormants="true" stretchMode="realtime" stretchQuality="high" stretchRatio="0.85999999999999998667732370449812151491641998291015625" stretchType="solo" transientSensitivity="40"/>
+          <editParameter parameterIndex="0" slotIndex="4294967280"/>
+          <editParameter parameterIndex="0" slotIndex="4294967281"/>
+          <channelMap>
+            <channel index="0" sourceIndex="0"/>
+            <channel index="1" sourceIndex="1"/>
+          </channelMap>
+        </audioClip>
+        <audioClip clipAutoCrossfade="true" crossFadeHeadClipID="-1" crossFadeTailClipID="-1" endPoint="12765473" fileID="4" hue="-1" id="1" lockedInTime="false" looped="false" name="晴天 最后一句" offline="false" select="false" sourceInPoint="21599" sourceOutPoint="158398" startPoint="12628674" zOrder="4">
+          <component componentGuid="65dd6b7e-57d6-48ad-9e34-182326c1a84f" componentID="Audition.Fader" id="clipGain" name="volume" powered="true">
+            <parameter index="0" name="volume" parameterValue="1"/>
+            <parameter index="1" name="static gain" parameterValue="1"/>
+          </component>
+          <component componentGuid="efff009e-c5b6-4664-a92b-4672bb300dec" componentID="Audition.Mute" id="clipMute" name="Mute" powered="true">
+            <parameter index="0" parameterValue="0"/>
+            <parameter index="1" name="mute" parameterValue="0"/>
+          </component>
+          <component componentGuid="d7982c10-85a4-4f52-bb34-b91a55952914" componentID="Audition.StereoPanner" id="clipPan" name="StereoPanner" powered="true">
+            <parameter index="0" name="声像" parameterValue="0">
+              <parameterKeyframes enableSplines="false" readOnly="false">
+                <parameterKeyframe sampleOffset="14960" select="false" type="linear" value="0.5"/>
+              </parameterKeyframes>
+            </parameter>
+          </component>
+          <fadeIn crossFadeLinkType="linkedAsymmetric" endPoint="0" shape="19" startPoint="0" type="log"/>
+          <fadeOut crossFadeLinkType="linkedAsymmetric" endPoint="136799" shape="39" startPoint="136799" type="log"/>
+          <clipStretch adaptiveWindowSize="37" pitchAdjustment="0" preserveFormants="true" stretchMode="realtime" stretchQuality="high" stretchRatio="0.85999999999999998667732370449812151491641998291015625" stretchType="solo" transientSensitivity="40"/>
+          <editParameter parameterIndex="0" slotIndex="4294967281"/>
+          <editParameter parameterIndex="0" slotIndex="4294967280"/>
+          <channelMap>
+            <channel index="0" sourceIndex="0"/>
+            <channel index="1" sourceIndex="1"/>
+          </channelMap>
+        </audioClip>
       </audioTrack>
       <masterTrack automationLaneOpenState="false" id="10000" index="7" select="false" visible="true">
-        <trackParameters trackHeight="134" trackHue="-1" trackMinimized="false">
+        <trackParameters trackHeight="88" trackHue="-1" trackMinimized="false">
           <name>混合</name>
         </trackParameters>
         <trackAudioParameters audioChannelType="stereo" automationMode="1" monitoring="false" recordArmed="false" solo="false" soloSafe="true">
@@ -590,9 +684,9 @@
         <editParameter parameterIndex="0" slotIndex="4294967280"/>
       </masterTrack>
     </tracks>
-    <sessionState ctiPosition="2093331" smpteStart="0">
-      <selectionState selectionDuration="0" selectionStart="2093331"/>
-      <viewState horizontalViewDuration="601756" horizontalViewStart="1621154" trackControlsWidth="224" verticalScrollOffset="0"/>
+    <sessionState ctiPosition="12815417" smpteStart="0">
+      <selectionState selectionDuration="0" selectionStart="12815417"/>
+      <viewState horizontalViewDuration="188161" horizontalViewStart="12706622" trackControlsWidth="224" verticalScrollOffset="-10"/>
       <timeFormatState beatsPerBar="4" beatsPerMinute="120" customFrameRate="12" linkToDefaultTimeSettings="true" noteLength="4" subdivisions="16" timeCodeDropFrame="false" timeCodeFrameRate="30" timeCodeNTSC="false" timeFormat="timeFormatDecimal"/>
       <mixingOptionState defaultPanModeLogarithmic="false" panPower="-3" playOverlappingClips="false"/>
     </sessionState>
@@ -608,9 +702,9 @@
             xmlns:xmpDM="http://ns.adobe.com/xmp/1.0/DynamicMedia/">
          <xmp:CreatorTool>Adobe Audition 25.0 (Windows)</xmp:CreatorTool>
          <xmp:CreateDate>2025-12-05T22:48:09+08:00</xmp:CreateDate>
-         <xmp:MetadataDate>2025-12-08T12:44:06+08:00</xmp:MetadataDate>
-         <xmp:ModifyDate>2025-12-08T12:44:06+08:00</xmp:ModifyDate>
-         <xmpMM:InstanceID>xmp.iid:aac52f81-0f49-5f46-b2f9-74a541e923a5</xmpMM:InstanceID>
+         <xmp:MetadataDate>2025-12-09T18:20:41+08:00</xmp:MetadataDate>
+         <xmp:ModifyDate>2025-12-09T18:20:41+08:00</xmp:ModifyDate>
+         <xmpMM:InstanceID>xmp.iid:397f8bb5-d7bd-964b-b84d-c7521167cb51</xmpMM:InstanceID>
          <xmpMM:DocumentID>xmp.did:3c44be81-85cd-b643-8569-b1eda096acac</xmpMM:DocumentID>
          <xmpMM:OriginalDocumentID>xmp.did:d28552d1-284a-cd41-92a1-35f3fe4e13e7</xmpMM:OriginalDocumentID>
          <xmpMM:History>
@@ -689,6 +783,34 @@
                   <stEvt:action>saved</stEvt:action>
                   <stEvt:instanceID>xmp.iid:aac52f81-0f49-5f46-b2f9-74a541e923a5</stEvt:instanceID>
                   <stEvt:when>2025-12-08T12:44:06+08:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe Audition 25.0 (Windows)</stEvt:softwareAgent>
+                  <stEvt:changed>/</stEvt:changed>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:190da526-7ec4-a149-aa30-1fa696b75d8b</stEvt:instanceID>
+                  <stEvt:when>2025-12-09T13:44:50+08:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe Audition 25.0 (Windows)</stEvt:softwareAgent>
+                  <stEvt:changed>/metadata</stEvt:changed>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:ff241d4c-ed12-fe4a-8c0a-2ad2cdfa644e</stEvt:instanceID>
+                  <stEvt:when>2025-12-09T13:44:50+08:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe Audition 25.0 (Windows)</stEvt:softwareAgent>
+                  <stEvt:changed>/</stEvt:changed>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:18ba2ffd-84fd-8f41-819b-f2a64981efb9</stEvt:instanceID>
+                  <stEvt:when>2025-12-09T18:20:41+08:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe Audition 25.0 (Windows)</stEvt:softwareAgent>
+                  <stEvt:changed>/metadata</stEvt:changed>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:397f8bb5-d7bd-964b-b84d-c7521167cb51</stEvt:instanceID>
+                  <stEvt:when>2025-12-09T18:20:41+08:00</stEvt:when>
                   <stEvt:softwareAgent>Adobe Audition 25.0 (Windows)</stEvt:softwareAgent>
                   <stEvt:changed>/</stEvt:changed>
                </rdf:li>
@@ -824,6 +946,8 @@
     <file absolutePath="D:\Qingtian-Tulpa\晴天\Backup\已导入文件\周杰伦 - 晴天 48000 1.wav" id="0" importerPrivateSettings="Compression:0:0;LargeFileSupport:0:0;SampleType:0:1;" mediaHandler="AmioWav" relativePath="晴天/Backup/已导入文件/周杰伦 - 晴天 48000 1.wav"/>
     <file absolutePath="D:\Qingtian-Tulpa\晴天\Backup\已导入文件\晴天 (伴奏) 48000 1.wav" id="1" importerPrivateSettings="Compression:0:0;LargeFileSupport:0:0;SampleType:0:1;" mediaHandler="AmioWav" relativePath="晴天/Backup/已导入文件/晴天 (伴奏) 48000 1.wav"/>
     <file absolutePath="D:\Qingtian-Tulpa\晴天\Backup\已导入文件\残障终至-童年的荡秋千，随记忆一直晃到现在.wav" id="2" mediaHandler="ImporterHost" relativePath="晴天/Backup/已导入文件/残障终至-童年的荡秋千，随记忆一直晃到现在.wav"/>
+    <file absolutePath="D:\Qingtian-Tulpa\素材\弥望新\刮风这天我试着握着你手.mp3" id="3" importerPrivateSettings="BitsPerSecond:0:320000;CompressionQuality:0:4;CompressionType:0:0;Encoder:0:1279348037;" mediaHandler="AmioMP3" relativePath="素材/弥望新/刮风这天我试着握着你手.mp3"/>
+    <file absolutePath="D:\Qingtian-Tulpa\素材\童话世界\晴天 最后一句.wav" id="4" mediaHandler="AmioWav" relativePath="素材/童话世界/晴天 最后一句.wav"/>
   </files>
 
   <audioDevice inputID="22222222-2222-2222-2222-22222222" outputID="11111111-1111-1111-1111-11111111">

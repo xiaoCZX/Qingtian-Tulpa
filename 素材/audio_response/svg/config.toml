@@ -1,0 +1,47 @@
+# 音频频谱图SVG生成器配置文件
+
+[audio]
+# 支持的音频格式: wav, mp3, ogg, flac, m4a
+# 单文件模式：设置input_file为单个文件路径
+input_file = ""
+output_file = ""
+# 是否使用音频文件名作为SVG文件名（true/false）
+use_audio_name = true
+# 批量处理模式：设置input_folder为文件夹路径（留空则使用input_file）
+input_folder = "音频"
+# 输出文件夹（批量模式下使用，留空则在原文件夹生成）
+output_folder = "svg"
+
+[spectrum]
+# 时间窗口大小（秒），用于分析音频的时间片段
+time_window = 0.1
+# 频率范围（Hz）
+freq_min = 20
+freq_max = 20000
+# 频谱条数量（如果为0，则根据音频时长自动计算）
+num_bars = 0
+# 每秒生成的频谱条数（当num_bars=0时使用）
+bars_per_second = 8
+
+[svg]
+# SVG画布尺寸
+width = 800
+height = 100
+# 频谱条宽度
+bar_width = 6
+# 频谱条之间的间距
+bar_spacing = 7
+# 频谱条颜色（支持十六进制颜色代码）
+bar_color = "#000000"
+# 频谱条圆角半径
+border_radius = 2
+# 频谱条最小高度
+min_bar_height = 10
+# 频谱条最大高度（相对于SVG高度的百分比）
+max_bar_height_percent = 100
+# 背景颜色（留空表示透明）
+background_color = ""
+
+[alignment]
+# 频谱条对齐方式: "center"(居中), "top"(居上), "bottom"(居下)
+vertical_align = "center"

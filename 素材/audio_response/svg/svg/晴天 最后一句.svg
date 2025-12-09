@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="100" viewBox="0 0 800 100">
+  <g id="spectrum">
+    <rect id="bar_0" width="6" height="10.00" x="0" y="45.00" fill="#000000" rx="2" ry="2"/>
+    <rect id="bar_1" width="6" height="64.52" x="13" y="17.74" fill="#000000" rx="2" ry="2"/>
+    <rect id="bar_2" width="6" height="83.46" x="26" y="8.27" fill="#000000" rx="2" ry="2"/>
+    <rect id="bar_3" width="6" height="15.24" x="39" y="42.38" fill="#000000" rx="2" ry="2"/>
+    <rect id="bar_4" width="6" height="26.63" x="52" y="36.69" fill="#000000" rx="2" ry="2"/>
+    <rect id="bar_5" width="6" height="86.53" x="65" y="6.74" fill="#000000" rx="2" ry="2"/>
+    <rect id="bar_6" width="6" height="95.98" x="78" y="2.01" fill="#000000" rx="2" ry="2"/>
+    <rect id="bar_7" width="6" height="75.48" x="91" y="12.26" fill="#000000" rx="2" ry="2"/>
+    <rect id="bar_8" width="6" height="81.12" x="104" y="9.44" fill="#000000" rx="2" ry="2"/>
+    <rect id="bar_9" width="6" height="54.74" x="117" y="22.63" fill="#000000" rx="2" ry="2"/>
+    <rect id="bar_10" width="6" height="93.23" x="130" y="3.39" fill="#000000" rx="2" ry="2"/>
+    <rect id="bar_11" width="6" height="81.02" x="143" y="9.49" fill="#000000" rx="2" ry="2"/>
+    <rect id="bar_12" width="6" height="70.42" x="156" y="14.79" fill="#000000" rx="2" ry="2"/>
+    <rect id="bar_13" width="6" height="62.29" x="169" y="18.86" fill="#000000" rx="2" ry="2"/>
+    <rect id="bar_14" width="6" height="65.62" x="182" y="17.19" fill="#000000" rx="2" ry="2"/>
+    <rect id="bar_15" width="6" height="57.44" x="195" y="21.28" fill="#000000" rx="2" ry="2"/>
+    <rect id="bar_16" width="6" height="80.74" x="208" y="9.63" fill="#000000" rx="2" ry="2"/>
+    <rect id="bar_17" width="6" height="100.00" x="221" y="0.00" fill="#000000" rx="2" ry="2"/>
+    <rect id="bar_18" width="6" height="62.39" x="234" y="18.81" fill="#000000" rx="2" ry="2"/>
+    <rect id="bar_19" width="6" height="91.34" x="247" y="4.33" fill="#000000" rx="2" ry="2"/>
+    <rect id="bar_20" width="6" height="52.30" x="260" y="23.85" fill="#000000" rx="2" ry="2"/>
+    <rect id="bar_21" width="6" height="70.42" x="273" y="14.79" fill="#000000" rx="2" ry="2"/>
+    <rect id="bar_22" width="6" height="41.20" x="286" y="29.40" fill="#000000" rx="2" ry="2"/>
+    <rect id="bar_23" width="6" height="81.17" x="299" y="9.41" fill="#000000" rx="2" ry="2"/>
+    <rect id="bar_24" width="6" height="86.63" x="312" y="6.69" fill="#000000" rx="2" ry="2"/>
+    <rect id="bar_25" width="6" height="70.32" x="325" y="14.84" fill="#000000" rx="2" ry="2"/>
+    <rect id="bar_26" width="6" height="67.93" x="338" y="16.04" fill="#000000" rx="2" ry="2"/>
+    <rect id="bar_27" width="6" height="84.99" x="351" y="7.51" fill="#000000" rx="2" ry="2"/>
+    <rect id="bar_28" width="6" height="37.56" x="364" y="31.22" fill="#000000" rx="2" ry="2"/>
+    <rect id="bar_29" width="6" height="10.00" x="377" y="45.00" fill="#000000" rx="2" ry="2"/>
+  </g>
+</svg>
