@@ -1,0 +1,1271 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<!DOCTYPE sesx>
+<sesx version="1.9">
+
+  <session appBuild="25.0.0.47" appVersion="25.0" audioChannelType="stereo" bitDepth="32" duration="13354338" sampleRate="48000">
+    <tracks>
+      <audioTrack automationLaneOpenState="false" id="10001" index="1" select="false" visible="true">
+        <trackParameters trackHeight="72" trackHue="160" trackMinimized="false">
+          <name>轨道 1</name>
+        </trackParameters>
+        <trackAudioParameters audioChannelType="stereo" automationMode="1" monitoring="false" recordArmed="false" solo="false" soloSafe="false">
+          <trackOutput outputID="10000" type="trackID"/>
+          <trackInput inputID="1"/>
+          <component componentGuid="9822f758-3d96-4053-9490-e80ba324d90b" componentID="Audition.Fader" id="trackFader" name="volume" powered="true">
+            <parameter index="0" name="volume" parameterValue="1"/>
+            <parameter index="1" name="static gain" parameterValue="1"/>
+          </component>
+          <component componentGuid="018bb31e-5c50-4707-b146-cc27cd589359" componentID="Audition.Mute" id="trackMute" name="Mute" powered="true">
+            <parameter index="0" parameterValue="0"/>
+            <parameter index="1" name="mute" parameterValue="0"/>
+          </component>
+          <component componentGuid="b8541311-7afc-44c8-a7f3-b7c0bd8ec930" componentID="Audition.StereoPanner" id="trackPan" name="StereoPanner" powered="true">
+            <parameter index="0" name="声像" parameterValue="0"/>
+          </component>
+          <component componentGuid="df8a6b7f-3caf-4d6e-b4e3-b2594e4d1281" componentID="Audition.EQ" id="trackEQ" name="EQ" powered="false">
+            <parameter index="0" name="下限频率" parameterValue="0.000834028352983295917510986328125"/>
+            <parameter index="1" name="下限增益" parameterValue="0.5"/>
+            <parameter index="2" name="上限频率" parameterValue="0.74979150295257568359375"/>
+            <parameter index="3" name="上限频率增益" parameterValue="0.5"/>
+            <parameter index="4" name="EQ 频段 1 中置频率" parameterValue="0.00125104258768260478973388671875"/>
+            <parameter index="5" name="EQ 频段 1 Q" parameterValue="0.000199989997781813144683837890625"/>
+            <parameter index="6" name="EQ 频段 1 增益" parameterValue="0.5"/>
+            <parameter index="7" name="EQ 频段 1 启用" parameterValue="1"/>
+            <parameter index="8" name="EQ 频段 2 中置频率" parameterValue="0.0075062550604343414306640625"/>
+            <parameter index="9" name="EQ 频段 2 Q" parameterValue="0.000199989997781813144683837890625"/>
+            <parameter index="10" name="EQ 频段 2 增益" parameterValue="0.5"/>
+            <parameter index="11" name="EQ 频段 2 启用" parameterValue="1"/>
+            <parameter index="12" name="EQ 频段 3 中置频率" parameterValue="0.0325271077454090118408203125"/>
+            <parameter index="13" name="EQ 频段 3 Q" parameterValue="0.000199989997781813144683837890625"/>
+            <parameter index="14" name="EQ 频段 3 增益" parameterValue="0.5"/>
+            <parameter index="15" name="EQ 频段 3 启用" parameterValue="1"/>
+            <parameter index="16" name="EQ 频段 4 中置频率" parameterValue="0.13261051476001739501953125"/>
+            <parameter index="17" name="EQ 频段 4 Q" parameterValue="0.000199989997781813144683837890625"/>
+            <parameter index="18" name="EQ 频段 4 增益" parameterValue="0.5"/>
+            <parameter index="19" name="EQ 频段 4 启用" parameterValue="1"/>
+            <parameter index="20" name="EQ 频段 5 中置频率" parameterValue="0.532944142818450927734375"/>
+            <parameter index="21" name="EQ 频段 5 Q" parameterValue="0.000199989997781813144683837890625"/>
+            <parameter index="22" name="EQ 频段 5 增益" parameterValue="0.5"/>
+            <parameter index="23" name="EQ 频段 5 启用" parameterValue="1"/>
+            <parameter index="24" name="增益" parameterValue="0.666666686534881591796875"/>
+            <parameter index="25" name="恒定 Q" parameterValue="1"/>
+            <parameter index="26" name="下限滤镜顺序" parameterValue="0"/>
+            <parameter index="27" name="上限频率滤镜顺序" parameterValue="0"/>
+            <parameter index="28" name="超静音模式" parameterValue="0"/>
+            <parameter index="29" name="下限启用" parameterValue="1"/>
+            <parameter index="30" name="上限频率启用" parameterValue="1"/>
+            <parameter index="31" name="原始采样率" parameterValue="0.25"/>
+            <parameter index="32" name="EQ 频段 1 频带宽" parameterValue="0.002499990165233612060546875"/>
+            <parameter index="33" name="EQ 频段 2 频段宽度" parameterValue="0.0099999904632568359375"/>
+            <parameter index="34" name="EQ 频段 3 频段宽度" parameterValue="0.0399999916553497314453125"/>
+            <parameter index="35" name="EQ 频段 4 频段宽度" parameterValue="0.15999998152256011962890625"/>
+            <parameter index="36" name="EQ 频段 5 频段宽度" parameterValue="0.63999998569488525390625"/>
+            <parameter index="37" name="高通滤波启用" parameterValue="0"/>
+            <parameter index="38" name="高通切除频率" parameterValue="0"/>
+            <parameter index="39" name="高通斜率" parameterValue="0.4000000059604644775390625"/>
+            <parameter index="40" name="低通滤波启用" parameterValue="0"/>
+            <parameter index="41" name="低通切除频率" parameterValue="0.833194315433502197265625"/>
+            <parameter index="42" name="低通斜率" parameterValue="0.4000000059604644775390625"/>
+            <parameter index="43" name="不使用" parameterValue="0"/>
+            <parameter index="44" name="下限图示范围" parameterValue="1"/>
+          </component>
+        </trackAudioParameters>
+        <editParameter parameterIndex="0" slotIndex="4294967280"/>
+      </audioTrack>
+      <audioTrack automationLaneOpenState="false" id="10002" index="2" select="false" visible="true">
+        <trackParameters trackHeight="72" trackHue="267" trackMinimized="false">
+          <name>原唱</name>
+        </trackParameters>
+        <trackAudioParameters audioChannelType="stereo" automationMode="1" monitoring="false" recordArmed="false" solo="false" soloSafe="false">
+          <trackOutput outputID="10000" type="trackID"/>
+          <trackInput inputID="1"/>
+          <component componentGuid="0d81fdc5-376f-4915-96da-0075fbd937f9" componentID="Audition.Fader" id="trackFader" name="volume" powered="true">
+            <parameter index="0" name="volume" parameterValue="1"/>
+            <parameter index="1" name="static gain" parameterValue="1"/>
+          </component>
+          <component componentGuid="df145205-236e-4447-b28b-b9e1cb7e1e1e" componentID="Audition.Mute" id="trackMute" name="Mute" powered="true">
+            <parameter index="0" parameterValue="0"/>
+            <parameter index="1" name="mute" parameterValue="0"/>
+          </component>
+          <component componentGuid="1ae0d938-5d5b-44eb-a16e-173c85986cc6" componentID="Audition.StereoPanner" id="trackPan" name="StereoPanner" powered="true">
+            <parameter index="0" name="声像" parameterValue="0"/>
+          </component>
+          <component componentGuid="5de0b952-ba2b-4033-a01f-d16657a7e0c1" componentID="Audition.EQ" id="trackEQ" name="EQ" powered="false">
+            <parameter index="0" name="下限频率" parameterValue="0.000834028352983295917510986328125"/>
+            <parameter index="1" name="下限增益" parameterValue="0.5"/>
+            <parameter index="2" name="上限频率" parameterValue="0.74979150295257568359375"/>
+            <parameter index="3" name="上限频率增益" parameterValue="0.5"/>
+            <parameter index="4" name="EQ 频段 1 中置频率" parameterValue="0.00125104258768260478973388671875"/>
+            <parameter index="5" name="EQ 频段 1 Q" parameterValue="0.000199989997781813144683837890625"/>
+            <parameter index="6" name="EQ 频段 1 增益" parameterValue="0.5"/>
+            <parameter index="7" name="EQ 频段 1 启用" parameterValue="1"/>
+            <parameter index="8" name="EQ 频段 2 中置频率" parameterValue="0.0075062550604343414306640625"/>
+            <parameter index="9" name="EQ 频段 2 Q" parameterValue="0.000199989997781813144683837890625"/>
+            <parameter index="10" name="EQ 频段 2 增益" parameterValue="0.5"/>
+            <parameter index="11" name="EQ 频段 2 启用" parameterValue="1"/>
+            <parameter index="12" name="EQ 频段 3 中置频率" parameterValue="0.0325271077454090118408203125"/>
+            <parameter index="13" name="EQ 频段 3 Q" parameterValue="0.000199989997781813144683837890625"/>
+            <parameter index="14" name="EQ 频段 3 增益" parameterValue="0.5"/>
+            <parameter index="15" name="EQ 频段 3 启用" parameterValue="1"/>
+            <parameter index="16" name="EQ 频段 4 中置频率" parameterValue="0.13261051476001739501953125"/>
+            <parameter index="17" name="EQ 频段 4 Q" parameterValue="0.000199989997781813144683837890625"/>
+            <parameter index="18" name="EQ 频段 4 增益" parameterValue="0.5"/>
+            <parameter index="19" name="EQ 频段 4 启用" parameterValue="1"/>
+            <parameter index="20" name="EQ 频段 5 中置频率" parameterValue="0.532944142818450927734375"/>
+            <parameter index="21" name="EQ 频段 5 Q" parameterValue="0.000199989997781813144683837890625"/>
+            <parameter index="22" name="EQ 频段 5 增益" parameterValue="0.5"/>
+            <parameter index="23" name="EQ 频段 5 启用" parameterValue="1"/>
+            <parameter index="24" name="增益" parameterValue="0.666666686534881591796875"/>
+            <parameter index="25" name="恒定 Q" parameterValue="1"/>
+            <parameter index="26" name="下限滤镜顺序" parameterValue="0"/>
+            <parameter index="27" name="上限频率滤镜顺序" parameterValue="0"/>
+            <parameter index="28" name="超静音模式" parameterValue="0"/>
+            <parameter index="29" name="下限启用" parameterValue="1"/>
+            <parameter index="30" name="上限频率启用" parameterValue="1"/>
+            <parameter index="31" name="原始采样率" parameterValue="0.25"/>
+            <parameter index="32" name="EQ 频段 1 频带宽" parameterValue="0.002499990165233612060546875"/>
+            <parameter index="33" name="EQ 频段 2 频段宽度" parameterValue="0.0099999904632568359375"/>
+            <parameter index="34" name="EQ 频段 3 频段宽度" parameterValue="0.0399999916553497314453125"/>
+            <parameter index="35" name="EQ 频段 4 频段宽度" parameterValue="0.15999998152256011962890625"/>
+            <parameter index="36" name="EQ 频段 5 频段宽度" parameterValue="0.63999998569488525390625"/>
+            <parameter index="37" name="高通滤波启用" parameterValue="0"/>
+            <parameter index="38" name="高通切除频率" parameterValue="0"/>
+            <parameter index="39" name="高通斜率" parameterValue="0.4000000059604644775390625"/>
+            <parameter index="40" name="低通滤波启用" parameterValue="0"/>
+            <parameter index="41" name="低通切除频率" parameterValue="0.833194315433502197265625"/>
+            <parameter index="42" name="低通斜率" parameterValue="0.4000000059604644775390625"/>
+            <parameter index="43" name="不使用" parameterValue="0"/>
+            <parameter index="44" name="下限图示范围" parameterValue="1"/>
+          </component>
+        </trackAudioParameters>
+        <editParameter parameterIndex="0" slotIndex="4294967280"/>
+        <audioClip clipAutoCrossfade="true" crossFadeHeadClipID="-1" crossFadeTailClipID="-1" endPoint="12948776" fileID="0" hue="-1" id="0" lockedInTime="false" looped="false" name="周杰伦 - 晴天 48000 1" offline="false" select="false" sourceInPoint="0" sourceOutPoint="12947840" startPoint="936" zOrder="0">
+          <component componentGuid="665ff76e-2409-4890-a8ad-a682d342b7b6" componentID="Audition.Fader" id="clipGain" name="volume" powered="true">
+            <parameter index="0" name="volume" parameterValue="1"/>
+            <parameter index="1" name="static gain" parameterValue="1"/>
+          </component>
+          <component componentGuid="8b8bdc21-ec56-444c-9717-80b134895f92" componentID="Audition.Mute" id="clipMute" name="Mute" powered="true">
+            <parameter index="0" parameterValue="0"/>
+            <parameter index="1" name="mute" parameterValue="0"/>
+          </component>
+          <component componentGuid="4219183b-b577-4bd4-b36d-7e7981a61719" componentID="Audition.StereoPanner" id="clipPan" name="StereoPanner" powered="true">
+            <parameter index="0" name="声像" parameterValue="0">
+              <parameterKeyframes enableSplines="false" readOnly="false">
+                <parameterKeyframe sampleOffset="1945715" select="true" type="linear" value="0.5"/>
+              </parameterKeyframes>
+            </parameter>
+          </component>
+          <fadeIn crossFadeLinkType="linkedAsymmetric" endPoint="0" shape="19" startPoint="0" type="log"/>
+          <fadeOut crossFadeLinkType="linkedAsymmetric" endPoint="12947840" shape="19" startPoint="12947840" type="log"/>
+          <editParameter parameterIndex="0" slotIndex="4294967280"/>
+          <editParameter parameterIndex="0" slotIndex="4294967281"/>
+          <channelMap>
+            <channel index="0" sourceIndex="0"/>
+            <channel index="1" sourceIndex="1"/>
+          </channelMap>
+        </audioClip>
+      </audioTrack>
+      <audioTrack automationLaneOpenState="false" id="10003" index="3" select="false" visible="true">
+        <trackParameters trackHeight="72" trackHue="51" trackMinimized="false">
+          <name>伴奏</name>
+        </trackParameters>
+        <trackAudioParameters audioChannelType="stereo" automationMode="1" monitoring="false" recordArmed="false" solo="false" soloSafe="false">
+          <trackOutput outputID="10000" type="trackID"/>
+          <trackInput inputID="1"/>
+          <component componentGuid="dd3e6b8f-1cc8-4c14-bbfb-e18f412d0dff" componentID="Audition.Fader" id="trackFader" name="volume" powered="true">
+            <parameter index="0" name="volume" parameterValue="1"/>
+            <parameter index="1" name="static gain" parameterValue="1"/>
+          </component>
+          <component componentGuid="fedb2bf1-5c84-4b5c-a147-55885823e94d" componentID="Audition.Mute" id="trackMute" name="Mute" powered="true">
+            <parameter index="0" parameterValue="0"/>
+            <parameter index="1" name="mute" parameterValue="0"/>
+          </component>
+          <component componentGuid="047253f8-aba3-46b4-8f99-05aa754015c2" componentID="Audition.StereoPanner" id="trackPan" name="StereoPanner" powered="true">
+            <parameter index="0" name="声像" parameterValue="0"/>
+          </component>
+          <component componentGuid="7f66123e-07ca-4258-8836-65aaaeda4462" componentID="Audition.EQ" id="trackEQ" name="EQ" powered="false">
+            <parameter index="0" name="下限频率" parameterValue="0.000834028352983295917510986328125"/>
+            <parameter index="1" name="下限增益" parameterValue="0.5"/>
+            <parameter index="2" name="上限频率" parameterValue="0.74979150295257568359375"/>
+            <parameter index="3" name="上限频率增益" parameterValue="0.5"/>
+            <parameter index="4" name="EQ 频段 1 中置频率" parameterValue="0.00125104258768260478973388671875"/>
+            <parameter index="5" name="EQ 频段 1 Q" parameterValue="0.000199989997781813144683837890625"/>
+            <parameter index="6" name="EQ 频段 1 增益" parameterValue="0.5"/>
+            <parameter index="7" name="EQ 频段 1 启用" parameterValue="1"/>
+            <parameter index="8" name="EQ 频段 2 中置频率" parameterValue="0.0075062550604343414306640625"/>
+            <parameter index="9" name="EQ 频段 2 Q" parameterValue="0.000199989997781813144683837890625"/>
+            <parameter index="10" name="EQ 频段 2 增益" parameterValue="0.5"/>
+            <parameter index="11" name="EQ 频段 2 启用" parameterValue="1"/>
+            <parameter index="12" name="EQ 频段 3 中置频率" parameterValue="0.0325271077454090118408203125"/>
+            <parameter index="13" name="EQ 频段 3 Q" parameterValue="0.000199989997781813144683837890625"/>
+            <parameter index="14" name="EQ 频段 3 增益" parameterValue="0.5"/>
+            <parameter index="15" name="EQ 频段 3 启用" parameterValue="1"/>
+            <parameter index="16" name="EQ 频段 4 中置频率" parameterValue="0.13261051476001739501953125"/>
+            <parameter index="17" name="EQ 频段 4 Q" parameterValue="0.000199989997781813144683837890625"/>
+            <parameter index="18" name="EQ 频段 4 增益" parameterValue="0.5"/>
+            <parameter index="19" name="EQ 频段 4 启用" parameterValue="1"/>
+            <parameter index="20" name="EQ 频段 5 中置频率" parameterValue="0.532944142818450927734375"/>
+            <parameter index="21" name="EQ 频段 5 Q" parameterValue="0.000199989997781813144683837890625"/>
+            <parameter index="22" name="EQ 频段 5 增益" parameterValue="0.5"/>
+            <parameter index="23" name="EQ 频段 5 启用" parameterValue="1"/>
+            <parameter index="24" name="增益" parameterValue="0.666666686534881591796875"/>
+            <parameter index="25" name="恒定 Q" parameterValue="1"/>
+            <parameter index="26" name="下限滤镜顺序" parameterValue="0"/>
+            <parameter index="27" name="上限频率滤镜顺序" parameterValue="0"/>
+            <parameter index="28" name="超静音模式" parameterValue="0"/>
+            <parameter index="29" name="下限启用" parameterValue="1"/>
+            <parameter index="30" name="上限频率启用" parameterValue="1"/>
+            <parameter index="31" name="原始采样率" parameterValue="0.25"/>
+            <parameter index="32" name="EQ 频段 1 频带宽" parameterValue="0.002499990165233612060546875"/>
+            <parameter index="33" name="EQ 频段 2 频段宽度" parameterValue="0.0099999904632568359375"/>
+            <parameter index="34" name="EQ 频段 3 频段宽度" parameterValue="0.0399999916553497314453125"/>
+            <parameter index="35" name="EQ 频段 4 频段宽度" parameterValue="0.15999998152256011962890625"/>
+            <parameter index="36" name="EQ 频段 5 频段宽度" parameterValue="0.63999998569488525390625"/>
+            <parameter index="37" name="高通滤波启用" parameterValue="0"/>
+            <parameter index="38" name="高通切除频率" parameterValue="0"/>
+            <parameter index="39" name="高通斜率" parameterValue="0.4000000059604644775390625"/>
+            <parameter index="40" name="低通滤波启用" parameterValue="0"/>
+            <parameter index="41" name="低通切除频率" parameterValue="0.833194315433502197265625"/>
+            <parameter index="42" name="低通斜率" parameterValue="0.4000000059604644775390625"/>
+            <parameter index="43" name="不使用" parameterValue="0"/>
+            <parameter index="44" name="下限图示范围" parameterValue="1"/>
+          </component>
+        </trackAudioParameters>
+        <editParameter parameterIndex="0" slotIndex="4294967280"/>
+        <audioClip clipAutoCrossfade="true" crossFadeHeadClipID="-1" crossFadeTailClipID="-1" endPoint="12947590" fileID="1" hue="-1" id="0" lockedInTime="false" looped="false" name="晴天 (伴奏) 48000 1" offline="false" select="false" sourceInPoint="0" sourceOutPoint="12947590" startPoint="0" zOrder="0">
+          <component componentGuid="9f5a8bd0-2d6f-43c4-a75e-b4afef88d4d8" componentID="Audition.Fader" id="clipGain" name="volume" powered="true">
+            <parameter index="0" name="volume" parameterValue="1"/>
+            <parameter index="1" name="static gain" parameterValue="1"/>
+          </component>
+          <component componentGuid="8b1c4ec8-b04b-4ed2-80b0-5954cf4d979e" componentID="Audition.Mute" id="clipMute" name="Mute" powered="true">
+            <parameter index="0" parameterValue="0"/>
+            <parameter index="1" name="mute" parameterValue="0"/>
+          </component>
+          <component componentGuid="19c0fd58-90fc-4883-9ec5-e28fe22886e4" componentID="Audition.StereoPanner" id="clipPan" name="StereoPanner" powered="true">
+            <parameter index="0" name="声像" parameterValue="0"/>
+          </component>
+          <fadeIn crossFadeLinkType="linkedAsymmetric" endPoint="0" shape="19" startPoint="0" type="log"/>
+          <fadeOut crossFadeLinkType="linkedAsymmetric" endPoint="12947590" shape="19" startPoint="12947590" type="log"/>
+          <editParameter parameterIndex="0" slotIndex="4294967280"/>
+          <editParameter parameterIndex="0" slotIndex="4294967281"/>
+          <channelMap>
+            <channel index="0" sourceIndex="0"/>
+            <channel index="1" sourceIndex="1"/>
+          </channelMap>
+        </audioClip>
+      </audioTrack>
+      <audioTrack automationLaneOpenState="false" id="10004" index="4" select="false" visible="true">
+        <trackParameters trackHeight="72" trackHue="182" trackMinimized="false">
+          <name>童年的...残障终至</name>
+        </trackParameters>
+        <trackAudioParameters audioChannelType="stereo" automationMode="1" monitoring="false" recordArmed="false" solo="false" soloSafe="false">
+          <trackOutput outputID="10000" type="trackID"/>
+          <trackInput inputID="1"/>
+          <component componentGuid="13e26483-06cc-41fc-955b-7faf0730f72d" componentID="Audition.Fader" id="trackFader" name="volume" powered="true">
+            <parameter index="0" name="volume" parameterValue="2.290866851806640625"/>
+            <parameter index="1" name="static gain" parameterValue="1"/>
+          </component>
+          <component componentGuid="a010b5c3-80e6-461a-b663-2ad8ed351094" componentID="Audition.Mute" id="trackMute" name="Mute" powered="true">
+            <parameter index="0" parameterValue="0"/>
+            <parameter index="1" name="mute" parameterValue="0"/>
+          </component>
+          <component componentGuid="f24a2ddc-798a-4448-a1de-d5608c13a6eb" componentID="Audition.StereoPanner" id="trackPan" name="StereoPanner" powered="true">
+            <parameter index="0" name="声像" parameterValue="0"/>
+          </component>
+          <component componentGuid="1e50b4f3-1a94-45e0-9435-f12ad7e1e698" componentID="Audition.EQ" id="trackEQ" name="EQ" powered="false">
+            <parameter index="0" name="下限频率" parameterValue="0.000834028352983295917510986328125"/>
+            <parameter index="1" name="下限增益" parameterValue="0.5"/>
+            <parameter index="2" name="上限频率" parameterValue="0.74979150295257568359375"/>
+            <parameter index="3" name="上限频率增益" parameterValue="0.5"/>
+            <parameter index="4" name="EQ 频段 1 中置频率" parameterValue="0.00125104258768260478973388671875"/>
+            <parameter index="5" name="EQ 频段 1 Q" parameterValue="0.000199989997781813144683837890625"/>
+            <parameter index="6" name="EQ 频段 1 增益" parameterValue="0.5"/>
+            <parameter index="7" name="EQ 频段 1 启用" parameterValue="1"/>
+            <parameter index="8" name="EQ 频段 2 中置频率" parameterValue="0.0075062550604343414306640625"/>
+            <parameter index="9" name="EQ 频段 2 Q" parameterValue="0.000199989997781813144683837890625"/>
+            <parameter index="10" name="EQ 频段 2 增益" parameterValue="0.5"/>
+            <parameter index="11" name="EQ 频段 2 启用" parameterValue="1"/>
+            <parameter index="12" name="EQ 频段 3 中置频率" parameterValue="0.0325271077454090118408203125"/>
+            <parameter index="13" name="EQ 频段 3 Q" parameterValue="0.000199989997781813144683837890625"/>
+            <parameter index="14" name="EQ 频段 3 增益" parameterValue="0.5"/>
+            <parameter index="15" name="EQ 频段 3 启用" parameterValue="1"/>
+            <parameter index="16" name="EQ 频段 4 中置频率" parameterValue="0.13261051476001739501953125"/>
+            <parameter index="17" name="EQ 频段 4 Q" parameterValue="0.000199989997781813144683837890625"/>
+            <parameter index="18" name="EQ 频段 4 增益" parameterValue="0.5"/>
+            <parameter index="19" name="EQ 频段 4 启用" parameterValue="1"/>
+            <parameter index="20" name="EQ 频段 5 中置频率" parameterValue="0.532944142818450927734375"/>
+            <parameter index="21" name="EQ 频段 5 Q" parameterValue="0.000199989997781813144683837890625"/>
+            <parameter index="22" name="EQ 频段 5 增益" parameterValue="0.5"/>
+            <parameter index="23" name="EQ 频段 5 启用" parameterValue="1"/>
+            <parameter index="24" name="增益" parameterValue="0.666666686534881591796875"/>
+            <parameter index="25" name="恒定 Q" parameterValue="1"/>
+            <parameter index="26" name="下限滤镜顺序" parameterValue="0"/>
+            <parameter index="27" name="上限频率滤镜顺序" parameterValue="0"/>
+            <parameter index="28" name="超静音模式" parameterValue="0"/>
+            <parameter index="29" name="下限启用" parameterValue="1"/>
+            <parameter index="30" name="上限频率启用" parameterValue="1"/>
+            <parameter index="31" name="原始采样率" parameterValue="0.25"/>
+            <parameter index="32" name="EQ 频段 1 频带宽" parameterValue="0.002499990165233612060546875"/>
+            <parameter index="33" name="EQ 频段 2 频段宽度" parameterValue="0.0099999904632568359375"/>
+            <parameter index="34" name="EQ 频段 3 频段宽度" parameterValue="0.0399999916553497314453125"/>
+            <parameter index="35" name="EQ 频段 4 频段宽度" parameterValue="0.15999998152256011962890625"/>
+            <parameter index="36" name="EQ 频段 5 频段宽度" parameterValue="0.63999998569488525390625"/>
+            <parameter index="37" name="高通滤波启用" parameterValue="0"/>
+            <parameter index="38" name="高通切除频率" parameterValue="0"/>
+            <parameter index="39" name="高通斜率" parameterValue="0.4000000059604644775390625"/>
+            <parameter index="40" name="低通滤波启用" parameterValue="0"/>
+            <parameter index="41" name="低通切除频率" parameterValue="0.833194315433502197265625"/>
+            <parameter index="42" name="低通斜率" parameterValue="0.4000000059604644775390625"/>
+            <parameter index="43" name="不使用" parameterValue="0"/>
+            <parameter index="44" name="下限图示范围" parameterValue="1"/>
+          </component>
+        </trackAudioParameters>
+        <editParameter parameterIndex="0" slotIndex="4294967280"/>
+        <audioClip clipAutoCrossfade="true" crossFadeHeadClipID="-1" crossFadeTailClipID="-1" endPoint="1898251" fileID="2" hue="-1" id="0" lockedInTime="false" looped="false" name="残障终至-童年的荡秋千，随记忆一直晃到现在" offline="false" select="false" sourceInPoint="127614" sourceOutPoint="291685" startPoint="1734180" zOrder="0">
+          <component componentGuid="2450594a-b5fe-44f5-bb98-a40108f7a457" componentID="Audition.Fader" id="clipGain" name="volume" powered="true">
+            <parameter index="0" name="volume" parameterValue="1"/>
+            <parameter index="1" name="static gain" parameterValue="1"/>
+          </component>
+          <component componentGuid="57e825f8-d037-4c29-8d83-822656f402d4" componentID="Audition.Mute" id="clipMute" name="Mute" powered="true">
+            <parameter index="0" parameterValue="0"/>
+            <parameter index="1" name="mute" parameterValue="0"/>
+          </component>
+          <component componentGuid="5b5d6670-8972-450c-b25c-dcf08e976952" componentID="Audition.StereoPanner" id="clipPan" name="StereoPanner" powered="true">
+            <parameter index="0" name="声像" parameterValue="0"/>
+          </component>
+          <fadeIn crossFadeLinkType="linkedAsymmetric" endPoint="0" shape="19" startPoint="0" type="log"/>
+          <fadeOut crossFadeLinkType="linkedAsymmetric" endPoint="164071" shape="19" startPoint="164071" type="log"/>
+          <editParameter parameterIndex="0" slotIndex="4294967280"/>
+          <editParameter parameterIndex="0" slotIndex="4294967281"/>
+          <channelMap>
+            <channel index="0" sourceIndex="0"/>
+            <channel index="1" sourceIndex="1"/>
+          </channelMap>
+        </audioClip>
+        <audioClip clipAutoCrossfade="true" crossFadeHeadClipID="-1" crossFadeTailClipID="-1" endPoint="1934851" fileID="2" hue="-1" id="1" lockedInTime="false" looped="false" name="残障终至-童年的荡秋千，随记忆一直晃到现在" offline="false" select="false" sourceInPoint="307804" sourceOutPoint="339033" startPoint="1903622" zOrder="1">
+          <component componentGuid="0f16e439-daea-46bb-bdc6-8ba77f0b7b9d" componentID="Audition.Fader" id="clipGain" name="volume" powered="true">
+            <parameter index="0" name="volume" parameterValue="1"/>
+            <parameter index="1" name="static gain" parameterValue="1"/>
+          </component>
+          <component componentGuid="359dfd5d-01d6-4a6f-a86c-8b2d260e101b" componentID="Audition.Mute" id="clipMute" name="Mute" powered="true">
+            <parameter index="0" parameterValue="0"/>
+            <parameter index="1" name="mute" parameterValue="0"/>
+          </component>
+          <component componentGuid="49a042e6-3eb4-400b-99f3-77c38141eb9d" componentID="Audition.StereoPanner" id="clipPan" name="StereoPanner" powered="true">
+            <parameter index="0" name="声像" parameterValue="0"/>
+          </component>
+          <fadeIn crossFadeLinkType="linkedAsymmetric" endPoint="0" shape="19" startPoint="0" type="log"/>
+          <fadeOut crossFadeLinkType="linkedAsymmetric" endPoint="31229" shape="19" startPoint="31229" type="log"/>
+          <editParameter parameterIndex="0" slotIndex="4294967280"/>
+          <editParameter parameterIndex="0" slotIndex="4294967281"/>
+          <channelMap>
+            <channel index="0" sourceIndex="0"/>
+            <channel index="1" sourceIndex="1"/>
+          </channelMap>
+        </audioClip>
+        <audioClip clipAutoCrossfade="true" crossFadeHeadClipID="-1" crossFadeTailClipID="-1" endPoint="2064000" fileID="2" hue="-1" id="2" lockedInTime="false" looped="false" name="残障终至-童年的荡秋千，随记忆一直晃到现在" offline="false" select="false" sourceInPoint="339033" sourceOutPoint="455109" startPoint="1947924" zOrder="2">
+          <component componentGuid="60c38d4f-56f7-42f1-873a-bfaeef57f544" componentID="Audition.Fader" id="clipGain" name="volume" powered="true">
+            <parameter index="0" name="volume" parameterValue="1"/>
+            <parameter index="1" name="static gain" parameterValue="1"/>
+          </component>
+          <component componentGuid="65ba4397-8555-4b95-b881-b54ed953a5ce" componentID="Audition.Mute" id="clipMute" name="Mute" powered="true">
+            <parameter index="0" parameterValue="0"/>
+            <parameter index="1" name="mute" parameterValue="0"/>
+          </component>
+          <component componentGuid="f0a01928-2eae-4902-9be5-8ec8a2eefa76" componentID="Audition.StereoPanner" id="clipPan" name="StereoPanner" powered="true">
+            <parameter index="0" name="声像" parameterValue="0"/>
+          </component>
+          <fadeIn crossFadeLinkType="linkedAsymmetric" endPoint="0" shape="19" startPoint="0" type="log"/>
+          <fadeOut crossFadeLinkType="linkedAsymmetric" endPoint="116076" shape="19" startPoint="116076" type="log"/>
+          <editParameter parameterIndex="0" slotIndex="4294967280"/>
+          <editParameter parameterIndex="0" slotIndex="4294967281"/>
+          <channelMap>
+            <channel index="0" sourceIndex="0"/>
+            <channel index="1" sourceIndex="1"/>
+          </channelMap>
+        </audioClip>
+      </audioTrack>
+      <audioTrack automationLaneOpenState="false" id="10005" index="5" select="false" visible="true">
+        <trackParameters trackHeight="72" trackHue="294" trackMinimized="false">
+          <name>刮风这...弥望新</name>
+        </trackParameters>
+        <trackAudioParameters audioChannelType="stereo" automationMode="1" monitoring="false" recordArmed="false" solo="false" soloSafe="false">
+          <trackOutput outputID="10000" type="trackID"/>
+          <trackInput inputID="1"/>
+          <component componentGuid="747d2464-f303-473f-b7fa-ecc131aefa26" componentID="Audition.Fader" id="trackFader" name="volume" powered="true">
+            <parameter index="0" name="volume" parameterValue="2.722701549530029296875"/>
+            <parameter index="1" name="static gain" parameterValue="1"/>
+          </component>
+          <component componentGuid="61da5eb2-553b-42d0-834d-98c3ff1393dd" componentID="Audition.Mute" id="trackMute" name="Mute" powered="true">
+            <parameter index="0" parameterValue="0"/>
+            <parameter index="1" name="mute" parameterValue="0"/>
+          </component>
+          <component componentGuid="0ffbee1d-a02c-47d5-871f-43f63118f0b7" componentID="Audition.StereoPanner" id="trackPan" name="StereoPanner" powered="true">
+            <parameter index="0" name="声像" parameterValue="0"/>
+          </component>
+          <component componentGuid="a5191dae-d9fc-42a8-be07-f1d9fdcdb0ea" componentID="Audition.EQ" id="trackEQ" name="EQ" powered="false">
+            <parameter index="0" name="下限频率" parameterValue="0.000834028352983295917510986328125"/>
+            <parameter index="1" name="下限增益" parameterValue="0.5"/>
+            <parameter index="2" name="上限频率" parameterValue="0.74979150295257568359375"/>
+            <parameter index="3" name="上限频率增益" parameterValue="0.5"/>
+            <parameter index="4" name="EQ 频段 1 中置频率" parameterValue="0.00125104258768260478973388671875"/>
+            <parameter index="5" name="EQ 频段 1 Q" parameterValue="0.000199989997781813144683837890625"/>
+            <parameter index="6" name="EQ 频段 1 增益" parameterValue="0.5"/>
+            <parameter index="7" name="EQ 频段 1 启用" parameterValue="1"/>
+            <parameter index="8" name="EQ 频段 2 中置频率" parameterValue="0.0075062550604343414306640625"/>
+            <parameter index="9" name="EQ 频段 2 Q" parameterValue="0.000199989997781813144683837890625"/>
+            <parameter index="10" name="EQ 频段 2 增益" parameterValue="0.5"/>
+            <parameter index="11" name="EQ 频段 2 启用" parameterValue="1"/>
+            <parameter index="12" name="EQ 频段 3 中置频率" parameterValue="0.0325271077454090118408203125"/>
+            <parameter index="13" name="EQ 频段 3 Q" parameterValue="0.000199989997781813144683837890625"/>
+            <parameter index="14" name="EQ 频段 3 增益" parameterValue="0.5"/>
+            <parameter index="15" name="EQ 频段 3 启用" parameterValue="1"/>
+            <parameter index="16" name="EQ 频段 4 中置频率" parameterValue="0.13261051476001739501953125"/>
+            <parameter index="17" name="EQ 频段 4 Q" parameterValue="0.000199989997781813144683837890625"/>
+            <parameter index="18" name="EQ 频段 4 增益" parameterValue="0.5"/>
+            <parameter index="19" name="EQ 频段 4 启用" parameterValue="1"/>
+            <parameter index="20" name="EQ 频段 5 中置频率" parameterValue="0.532944142818450927734375"/>
+            <parameter index="21" name="EQ 频段 5 Q" parameterValue="0.000199989997781813144683837890625"/>
+            <parameter index="22" name="EQ 频段 5 增益" parameterValue="0.5"/>
+            <parameter index="23" name="EQ 频段 5 启用" parameterValue="1"/>
+            <parameter index="24" name="增益" parameterValue="0.666666686534881591796875"/>
+            <parameter index="25" name="恒定 Q" parameterValue="1"/>
+            <parameter index="26" name="下限滤镜顺序" parameterValue="0"/>
+            <parameter index="27" name="上限频率滤镜顺序" parameterValue="0"/>
+            <parameter index="28" name="超静音模式" parameterValue="0"/>
+            <parameter index="29" name="下限启用" parameterValue="1"/>
+            <parameter index="30" name="上限频率启用" parameterValue="1"/>
+            <parameter index="31" name="原始采样率" parameterValue="0.25"/>
+            <parameter index="32" name="EQ 频段 1 频带宽" parameterValue="0.002499990165233612060546875"/>
+            <parameter index="33" name="EQ 频段 2 频段宽度" parameterValue="0.0099999904632568359375"/>
+            <parameter index="34" name="EQ 频段 3 频段宽度" parameterValue="0.0399999916553497314453125"/>
+            <parameter index="35" name="EQ 频段 4 频段宽度" parameterValue="0.15999998152256011962890625"/>
+            <parameter index="36" name="EQ 频段 5 频段宽度" parameterValue="0.63999998569488525390625"/>
+            <parameter index="37" name="高通滤波启用" parameterValue="0"/>
+            <parameter index="38" name="高通切除频率" parameterValue="0"/>
+            <parameter index="39" name="高通斜率" parameterValue="0.4000000059604644775390625"/>
+            <parameter index="40" name="低通滤波启用" parameterValue="0"/>
+            <parameter index="41" name="低通切除频率" parameterValue="0.833194315433502197265625"/>
+            <parameter index="42" name="低通斜率" parameterValue="0.4000000059604644775390625"/>
+            <parameter index="43" name="不使用" parameterValue="0"/>
+            <parameter index="44" name="下限图示范围" parameterValue="1"/>
+          </component>
+        </trackAudioParameters>
+        <editParameter parameterIndex="0" slotIndex="4294967280"/>
+        <audioClip clipAutoCrossfade="true" crossFadeHeadClipID="-1" crossFadeTailClipID="-1" endPoint="4167006" fileID="3" hue="-1" id="0" lockedInTime="false" looped="false" name="刮风这天我试着握着你手" offline="false" select="false" sourceInPoint="24051" sourceOutPoint="122872" startPoint="4068185" zOrder="0">
+          <component componentGuid="dc9035d7-50aa-4c07-9dda-16fde9397155" componentID="Audition.Fader" id="clipGain" name="volume" powered="true">
+            <parameter index="0" name="volume" parameterValue="1"/>
+            <parameter index="1" name="static gain" parameterValue="1"/>
+          </component>
+          <component componentGuid="95229591-f717-4308-b72e-7fb8cd1d7420" componentID="Audition.Mute" id="clipMute" name="Mute" powered="true">
+            <parameter index="0" parameterValue="0"/>
+            <parameter index="1" name="mute" parameterValue="0"/>
+          </component>
+          <component componentGuid="f9012eb2-31d7-4d88-9491-bc53d76094c5" componentID="Audition.StereoPanner" id="clipPan" name="StereoPanner" powered="true">
+            <parameter index="0" name="声像" parameterValue="0"/>
+          </component>
+          <fadeIn crossFadeLinkType="linkedAsymmetric" endPoint="0" shape="19" startPoint="0" type="log"/>
+          <fadeOut crossFadeLinkType="linkedAsymmetric" endPoint="98821" shape="19" startPoint="98821" type="log"/>
+          <editParameter parameterIndex="0" slotIndex="4294967280"/>
+          <editParameter parameterIndex="0" slotIndex="4294967281"/>
+          <channelMap>
+            <channel index="0" sourceIndex="0"/>
+            <channel index="1" sourceIndex="1"/>
+          </channelMap>
+        </audioClip>
+        <audioClip clipAutoCrossfade="true" crossFadeHeadClipID="-1" crossFadeTailClipID="-1" endPoint="4327178" fileID="3" hue="-1" id="1" lockedInTime="false" looped="false" name="刮风这天我试着握着你手" offline="false" select="false" sourceInPoint="138362" sourceOutPoint="290409" startPoint="4175131" zOrder="1">
+          <component componentGuid="33b195a3-04df-41e5-9c32-73dc6b59bd4f" componentID="Audition.Fader" id="clipGain" name="volume" powered="true">
+            <parameter index="0" name="volume" parameterValue="1"/>
+            <parameter index="1" name="static gain" parameterValue="1"/>
+          </component>
+          <component componentGuid="37b04cbc-722d-4a13-a48d-e3f273527879" componentID="Audition.Mute" id="clipMute" name="Mute" powered="true">
+            <parameter index="0" parameterValue="0"/>
+            <parameter index="1" name="mute" parameterValue="0"/>
+          </component>
+          <component componentGuid="fa8d808d-8958-4507-ab3f-cbcd503641cd" componentID="Audition.StereoPanner" id="clipPan" name="StereoPanner" powered="true">
+            <parameter index="0" name="声像" parameterValue="0"/>
+          </component>
+          <fadeIn crossFadeLinkType="linkedAsymmetric" endPoint="0" shape="19" startPoint="0" type="log"/>
+          <fadeOut crossFadeLinkType="linkedAsymmetric" endPoint="152047" shape="19" startPoint="152047" type="log"/>
+          <editParameter parameterIndex="0" slotIndex="4294967281"/>
+          <editParameter parameterIndex="0" slotIndex="4294967280"/>
+          <channelMap>
+            <channel index="0" sourceIndex="0"/>
+            <channel index="1" sourceIndex="1"/>
+          </channelMap>
+        </audioClip>
+      </audioTrack>
+      <audioTrack automationLaneOpenState="false" id="10006" index="6" select="false" visible="true">
+        <trackParameters trackHeight="72" trackHue="92" trackMinimized="false">
+          <name>但故事...童话世界</name>
+        </trackParameters>
+        <trackAudioParameters audioChannelType="stereo" automationMode="1" monitoring="false" recordArmed="false" solo="false" soloSafe="false">
+          <trackOutput outputID="10000" type="trackID"/>
+          <trackInput inputID="1"/>
+          <component componentGuid="2084950a-d225-4a84-bd58-ce7977f9b5e3" componentID="Audition.Fader" id="trackFader" name="volume" powered="true">
+            <parameter index="0" name="volume" parameterValue="5.62341403961181640625"/>
+            <parameter index="1" name="static gain" parameterValue="1"/>
+          </component>
+          <component componentGuid="4a639d3d-2d60-4b7e-9c26-b8870bb8bede" componentID="Audition.Mute" id="trackMute" name="Mute" powered="true">
+            <parameter index="0" parameterValue="0"/>
+            <parameter index="1" name="mute" parameterValue="0"/>
+          </component>
+          <component componentGuid="afa09341-5073-4bc9-bc91-5d4cab0c621e" componentID="Audition.StereoPanner" id="trackPan" name="StereoPanner" powered="true">
+            <parameter index="0" name="声像" parameterValue="0"/>
+          </component>
+          <component componentGuid="ae76ae99-be45-424a-a8a3-89afb81ea2d3" componentID="Audition.EQ" id="trackEQ" name="EQ" powered="false">
+            <parameter index="0" name="下限频率" parameterValue="0.000834028352983295917510986328125"/>
+            <parameter index="1" name="下限增益" parameterValue="0.5"/>
+            <parameter index="2" name="上限频率" parameterValue="0.74979150295257568359375"/>
+            <parameter index="3" name="上限频率增益" parameterValue="0.5"/>
+            <parameter index="4" name="EQ 频段 1 中置频率" parameterValue="0.00125104258768260478973388671875"/>
+            <parameter index="5" name="EQ 频段 1 Q" parameterValue="0.000199989997781813144683837890625"/>
+            <parameter index="6" name="EQ 频段 1 增益" parameterValue="0.5"/>
+            <parameter index="7" name="EQ 频段 1 启用" parameterValue="1"/>
+            <parameter index="8" name="EQ 频段 2 中置频率" parameterValue="0.0075062550604343414306640625"/>
+            <parameter index="9" name="EQ 频段 2 Q" parameterValue="0.000199989997781813144683837890625"/>
+            <parameter index="10" name="EQ 频段 2 增益" parameterValue="0.5"/>
+            <parameter index="11" name="EQ 频段 2 启用" parameterValue="1"/>
+            <parameter index="12" name="EQ 频段 3 中置频率" parameterValue="0.0325271077454090118408203125"/>
+            <parameter index="13" name="EQ 频段 3 Q" parameterValue="0.000199989997781813144683837890625"/>
+            <parameter index="14" name="EQ 频段 3 增益" parameterValue="0.5"/>
+            <parameter index="15" name="EQ 频段 3 启用" parameterValue="1"/>
+            <parameter index="16" name="EQ 频段 4 中置频率" parameterValue="0.13261051476001739501953125"/>
+            <parameter index="17" name="EQ 频段 4 Q" parameterValue="0.000199989997781813144683837890625"/>
+            <parameter index="18" name="EQ 频段 4 增益" parameterValue="0.5"/>
+            <parameter index="19" name="EQ 频段 4 启用" parameterValue="1"/>
+            <parameter index="20" name="EQ 频段 5 中置频率" parameterValue="0.532944142818450927734375"/>
+            <parameter index="21" name="EQ 频段 5 Q" parameterValue="0.000199989997781813144683837890625"/>
+            <parameter index="22" name="EQ 频段 5 增益" parameterValue="0.5"/>
+            <parameter index="23" name="EQ 频段 5 启用" parameterValue="1"/>
+            <parameter index="24" name="增益" parameterValue="0.666666686534881591796875"/>
+            <parameter index="25" name="恒定 Q" parameterValue="1"/>
+            <parameter index="26" name="下限滤镜顺序" parameterValue="0"/>
+            <parameter index="27" name="上限频率滤镜顺序" parameterValue="0"/>
+            <parameter index="28" name="超静音模式" parameterValue="0"/>
+            <parameter index="29" name="下限启用" parameterValue="1"/>
+            <parameter index="30" name="上限频率启用" parameterValue="1"/>
+            <parameter index="31" name="原始采样率" parameterValue="0.25"/>
+            <parameter index="32" name="EQ 频段 1 频带宽" parameterValue="0.002499990165233612060546875"/>
+            <parameter index="33" name="EQ 频段 2 频段宽度" parameterValue="0.0099999904632568359375"/>
+            <parameter index="34" name="EQ 频段 3 频段宽度" parameterValue="0.0399999916553497314453125"/>
+            <parameter index="35" name="EQ 频段 4 频段宽度" parameterValue="0.15999998152256011962890625"/>
+            <parameter index="36" name="EQ 频段 5 频段宽度" parameterValue="0.63999998569488525390625"/>
+            <parameter index="37" name="高通滤波启用" parameterValue="0"/>
+            <parameter index="38" name="高通切除频率" parameterValue="0"/>
+            <parameter index="39" name="高通斜率" parameterValue="0.4000000059604644775390625"/>
+            <parameter index="40" name="低通滤波启用" parameterValue="0"/>
+            <parameter index="41" name="低通切除频率" parameterValue="0.833194315433502197265625"/>
+            <parameter index="42" name="低通斜率" parameterValue="0.4000000059604644775390625"/>
+            <parameter index="43" name="不使用" parameterValue="0"/>
+            <parameter index="44" name="下限图示范围" parameterValue="1"/>
+          </component>
+        </trackAudioParameters>
+        <editParameter parameterIndex="0" slotIndex="4294967280"/>
+        <audioClip clipAutoCrossfade="true" crossFadeHeadClipID="-1" crossFadeTailClipID="-1" endPoint="12624000" fileID="4" hue="-1" id="0" lockedInTime="false" looped="false" name="晴天 最后一句" offline="false" select="false" sourceInPoint="0" sourceOutPoint="14930" startPoint="12609070" zOrder="1">
+          <component componentGuid="a194b084-491b-4516-a2fe-6892c72d6377" componentID="Audition.Fader" id="clipGain" name="volume" powered="true">
+            <parameter index="0" name="volume" parameterValue="1"/>
+            <parameter index="1" name="static gain" parameterValue="1"/>
+          </component>
+          <component componentGuid="bbc3b105-a71b-49ce-9fe8-fc40cde29136" componentID="Audition.Mute" id="clipMute" name="Mute" powered="true">
+            <parameter index="0" parameterValue="0"/>
+            <parameter index="1" name="mute" parameterValue="0"/>
+          </component>
+          <component componentGuid="69c05581-65f4-4e12-974b-ea80ad26ba17" componentID="Audition.StereoPanner" id="clipPan" name="StereoPanner" powered="true">
+            <parameter index="0" name="声像" parameterValue="0">
+              <parameterKeyframes enableSplines="false" readOnly="false">
+                <parameterKeyframe sampleOffset="14960" select="false" type="linear" value="0.5"/>
+              </parameterKeyframes>
+            </parameter>
+          </component>
+          <fadeIn crossFadeLinkType="linkedAsymmetric" endPoint="0" shape="19" startPoint="0" type="log"/>
+          <fadeOut crossFadeLinkType="linkedAsymmetric" endPoint="14930" shape="39" startPoint="14930" type="log"/>
+          <clipStretch adaptiveWindowSize="37" pitchAdjustment="0" preserveFormants="true" stretchMode="realtime" stretchQuality="high" stretchRatio="0.85999999999999998667732370449812151491641998291015625" stretchType="solo" transientSensitivity="40"/>
+          <editParameter parameterIndex="0" slotIndex="4294967280"/>
+          <editParameter parameterIndex="0" slotIndex="4294967281"/>
+          <channelMap>
+            <channel index="0" sourceIndex="0"/>
+            <channel index="1" sourceIndex="1"/>
+          </channelMap>
+        </audioClip>
+        <audioClip clipAutoCrossfade="true" crossFadeHeadClipID="-1" crossFadeTailClipID="-1" endPoint="12765473" fileID="4" hue="-1" id="1" lockedInTime="false" looped="false" name="晴天 最后一句" offline="false" select="false" sourceInPoint="21599" sourceOutPoint="158398" startPoint="12628674" zOrder="0">
+          <component componentGuid="65dd6b7e-57d6-48ad-9e34-182326c1a84f" componentID="Audition.Fader" id="clipGain" name="volume" powered="true">
+            <parameter index="0" name="volume" parameterValue="1"/>
+            <parameter index="1" name="static gain" parameterValue="1"/>
+          </component>
+          <component componentGuid="5bb31255-2047-4a96-9433-6d41f185b5aa" componentID="Audition.Mute" id="clipMute" name="Mute" powered="true">
+            <parameter index="0" parameterValue="0"/>
+            <parameter index="1" name="mute" parameterValue="0"/>
+          </component>
+          <component componentGuid="d7982c10-85a4-4f52-bb34-b91a55952914" componentID="Audition.StereoPanner" id="clipPan" name="StereoPanner" powered="true">
+            <parameter index="0" name="声像" parameterValue="0">
+              <parameterKeyframes enableSplines="false" readOnly="false">
+                <parameterKeyframe sampleOffset="14960" select="false" type="linear" value="0.5"/>
+              </parameterKeyframes>
+            </parameter>
+          </component>
+          <fadeIn crossFadeLinkType="linkedAsymmetric" endPoint="0" shape="19" startPoint="0" type="log"/>
+          <fadeOut crossFadeLinkType="linkedAsymmetric" endPoint="136799" shape="39" startPoint="136799" type="log"/>
+          <clipStretch adaptiveWindowSize="37" pitchAdjustment="0" preserveFormants="true" stretchMode="realtime" stretchQuality="high" stretchRatio="0.85999999999999998667732370449812151491641998291015625" stretchType="solo" transientSensitivity="40"/>
+          <editParameter parameterIndex="0" slotIndex="4294967281"/>
+          <editParameter parameterIndex="0" slotIndex="4294967280"/>
+          <channelMap>
+            <channel index="0" sourceIndex="0"/>
+            <channel index="1" sourceIndex="1"/>
+          </channelMap>
+        </audioClip>
+      </audioTrack>
+      <audioTrack automationLaneOpenState="false" id="10007" index="7" preRendered="true" select="true" visible="true">
+        <trackParameters trackHeight="72" trackHue="211" trackMinimized="false">
+          <name>轨道 2</name>
+        </trackParameters>
+        <trackAudioParameters audioChannelType="stereo" automationMode="1" monitoring="false" recordArmed="false" solo="false" soloSafe="false">
+          <trackOutput outputID="10000" type="trackID"/>
+          <trackInput inputID="1"/>
+          <component componentGuid="5bf33218-4e09-49be-8d2b-68113c9be1e9" componentID="Audition.Fader" id="trackFader" name="volume" powered="true">
+            <parameter index="0" name="volume" parameterValue="5.62341403961181640625"/>
+            <parameter index="1" name="static gain" parameterValue="1"/>
+          </component>
+          <component componentGuid="28abe8f8-ca5b-4fac-9f6f-01cd5d0bda42" componentID="Audition.Mute" id="trackMute" name="Mute" powered="true">
+            <parameter index="0" parameterValue="0"/>
+            <parameter index="1" name="mute" parameterValue="0"/>
+          </component>
+          <component componentGuid="f1581d1a-f668-4144-ba18-9233c552af70" componentID="Audition.StereoPanner" id="trackPan" name="StereoPanner" powered="true">
+            <parameter index="0" name="声像" parameterValue="0"/>
+          </component>
+          <component componentGuid="b2b1847d-4aac-4e3f-a657-2ab54e6bf8f5" componentID="Audition.EQ" id="trackEQ" name="EQ" powered="false">
+            <parameter index="0" name="下限频率" parameterValue="0.000834028352983295917510986328125"/>
+            <parameter index="1" name="下限增益" parameterValue="0.5"/>
+            <parameter index="2" name="上限频率" parameterValue="0.74979150295257568359375"/>
+            <parameter index="3" name="上限频率增益" parameterValue="0.5"/>
+            <parameter index="4" name="EQ 频段 1 中置频率" parameterValue="0.00125104258768260478973388671875"/>
+            <parameter index="5" name="EQ 频段 1 Q" parameterValue="0.000199989997781813144683837890625"/>
+            <parameter index="6" name="EQ 频段 1 增益" parameterValue="0.5"/>
+            <parameter index="7" name="EQ 频段 1 启用" parameterValue="1"/>
+            <parameter index="8" name="EQ 频段 2 中置频率" parameterValue="0.0075062550604343414306640625"/>
+            <parameter index="9" name="EQ 频段 2 Q" parameterValue="0.000199989997781813144683837890625"/>
+            <parameter index="10" name="EQ 频段 2 增益" parameterValue="0.5"/>
+            <parameter index="11" name="EQ 频段 2 启用" parameterValue="1"/>
+            <parameter index="12" name="EQ 频段 3 中置频率" parameterValue="0.0325271077454090118408203125"/>
+            <parameter index="13" name="EQ 频段 3 Q" parameterValue="0.000199989997781813144683837890625"/>
+            <parameter index="14" name="EQ 频段 3 增益" parameterValue="0.5"/>
+            <parameter index="15" name="EQ 频段 3 启用" parameterValue="1"/>
+            <parameter index="16" name="EQ 频段 4 中置频率" parameterValue="0.13261051476001739501953125"/>
+            <parameter index="17" name="EQ 频段 4 Q" parameterValue="0.000199989997781813144683837890625"/>
+            <parameter index="18" name="EQ 频段 4 增益" parameterValue="0.5"/>
+            <parameter index="19" name="EQ 频段 4 启用" parameterValue="1"/>
+            <parameter index="20" name="EQ 频段 5 中置频率" parameterValue="0.532944142818450927734375"/>
+            <parameter index="21" name="EQ 频段 5 Q" parameterValue="0.000199989997781813144683837890625"/>
+            <parameter index="22" name="EQ 频段 5 增益" parameterValue="0.5"/>
+            <parameter index="23" name="EQ 频段 5 启用" parameterValue="1"/>
+            <parameter index="24" name="增益" parameterValue="0.666666686534881591796875"/>
+            <parameter index="25" name="恒定 Q" parameterValue="1"/>
+            <parameter index="26" name="下限滤镜顺序" parameterValue="0"/>
+            <parameter index="27" name="上限频率滤镜顺序" parameterValue="0"/>
+            <parameter index="28" name="超静音模式" parameterValue="0"/>
+            <parameter index="29" name="下限启用" parameterValue="1"/>
+            <parameter index="30" name="上限频率启用" parameterValue="1"/>
+            <parameter index="31" name="原始采样率" parameterValue="0.25"/>
+            <parameter index="32" name="EQ 频段 1 频带宽" parameterValue="0.002499990165233612060546875"/>
+            <parameter index="33" name="EQ 频段 2 频段宽度" parameterValue="0.0099999904632568359375"/>
+            <parameter index="34" name="EQ 频段 3 频段宽度" parameterValue="0.0399999916553497314453125"/>
+            <parameter index="35" name="EQ 频段 4 频段宽度" parameterValue="0.15999998152256011962890625"/>
+            <parameter index="36" name="EQ 频段 5 频段宽度" parameterValue="0.63999998569488525390625"/>
+            <parameter index="37" name="高通滤波启用" parameterValue="0"/>
+            <parameter index="38" name="高通切除频率" parameterValue="0"/>
+            <parameter index="39" name="高通斜率" parameterValue="0.4000000059604644775390625"/>
+            <parameter index="40" name="低通滤波启用" parameterValue="0"/>
+            <parameter index="41" name="低通切除频率" parameterValue="0.833194315433502197265625"/>
+            <parameter index="42" name="低通斜率" parameterValue="0.4000000059604644775390625"/>
+            <parameter index="43" name="不使用" parameterValue="0"/>
+            <parameter index="44" name="下限图示范围" parameterValue="1"/>
+          </component>
+        </trackAudioParameters>
+        <effectsRack preFader="true">
+          <component componentGuid="8adba1f5-ca53-404b-9418-4ff422da267e" componentID="Audition.ComponentGroup" id="rackMix" powered="true">
+            <parameter index="0" parameterValue="0"/>
+            <parameter index="1" parameterValue="0"/>
+          </component>
+          <component componentGuid="77565933-477a-464c-9373-5ff077a7828a" id="rackInput" powered="true">
+            <parameter index="0" parameterValue="1"/>
+            <parameter index="1" parameterValue="0"/>
+          </component>
+          <component componentGuid="b2d722cf-6aa5-4b88-acea-110d9d47e5a7" id="rackOutput" powered="true">
+            <parameter index="0" parameterValue="1"/>
+            <parameter index="1" parameterValue="0"/>
+          </component>
+          <slot powered="true" slotIndex="0">
+            <component componentGuid="ea732776-624d-4701-83d2-2fb158643155" componentID="4f327230-f04c-4c34-9ea5-a998b4459221" name="FFT 滤波器" presetName="（自定义）">
+              <busConfig><![CDATA[{"in":[{"layout":[100,101],"name":"","type":0}],"out":[{"layout":[100,101],"name":"","type":0}]}]]></busConfig>
+              <presetChunkData><![CDATA[AIA7RwAAAAAQP3w9AADAPgAAAAD7/G06AACAPwAAAAAAAIA/AACgQNOmWjoAAEA/soUvPvxDQD/dxZM+DxJfPzMzaz/uIHE/AACAP+4gcT8=]]></presetChunkData>
+            </component>
+          </slot>
+          <slot powered="true" slotIndex="1">
+            <component componentGuid="78f2c5c2-bc3a-4083-b70c-6f343e43d78a" componentID="0a1016a3-74e6-4c93-8b6c-e058a1419bf1" name="中置声道提取" presetName="（自定义）">
+              <busConfig><![CDATA[{"in":[{"layout":[100,101],"name":"Stereo In","type":0}],"out":[{"layout":[100,101],"name":"Stereo Out","type":0}]}]]></busConfig>
+              <parameter index="0" name="相位度数" parameterValue="0.5"/>
+              <parameter index="1" name="声像" parameterValue="0.5"/>
+              <parameter index="2" name="延迟" parameterValue="0.5"/>
+              <parameter index="3" name="提取" parameterValue="0"/>
+              <parameter index="4" name="中置频率" parameterValue="0.004795663058757781982421875"/>
+              <parameter index="5" name="频率宽度" parameterValue="0.0087572969496250152587890625"/>
+              <parameter index="6" name="开始频率" parameterValue="0"/>
+              <parameter index="7" name="结束频率" parameterValue="0.009591325186192989349365234375"/>
+              <parameter index="8" name="交叉渗透" parameterValue="0.5"/>
+              <parameter index="9" name="相位鉴别" parameterValue="0.25"/>
+              <parameter index="10" name="振幅鉴别" parameterValue="0.02500000037252902984619140625"/>
+              <parameter index="11" name="振幅带宽" parameterValue="0.100000001490116119384765625"/>
+              <parameter index="12" name="频谱衰减率" parameterValue="0.0546875"/>
+              <parameter index="13" name="中置声道电平" parameterValue="0.552083313465118408203125"/>
+              <parameter index="14" name="侧边声道电平" parameterValue="0.5"/>
+              <parameter index="15" name="FFT 大小" parameterValue="4"/>
+              <parameter index="16" name="时间间隔" parameterValue="0.0468333326280117034912109375"/>
+              <parameter index="17" name="叠加" parameterValue="1"/>
+              <parameter index="18" name="窗口宽度" parameterValue="0.4986979067325592041015625"/>
+              <parameter index="19" name="色谱" parameterValue="4"/>
+              <parameter index="20" name="正在处理" parameterValue="0.251256287097930908203125"/>
+              <parameter index="21" name="原始采样率" parameterValue="0.25"/>
+            </component>
+          </slot>
+          <slot powered="true" slotIndex="2">
+            <component componentGuid="dfa0a191-b4d6-4efa-9757-bf42056b5f5a" componentID="7354704a-d87c-11e0-b05b-763c4824019b" name="图形相位调整器" presetName="（自定义）">
+              <busConfig><![CDATA[{"in":[{"layout":[100,101],"name":"立体声放大","type":0}],"out":[{"layout":[100,101],"name":"立体声缩小","type":0}]}]]></busConfig>
+              <presetChunkData><![CDATA[AIA7RwAAgD+EH/w8ED54PQAAAAAAAAAAuMVtOgAAgD8AAAAAAAAAAAAAwEAPdFo6AAAAP6g3/T4AAP4+NXgWPwAAUT9bDSY/AABzPzMzaz8AAIA/AACAPwAAgD8=]]></presetChunkData>
+            </component>
+          </slot>
+          <slot powered="true" slotIndex="3">
+            <component componentGuid="43429685-9c9d-45b8-ac38-700427e04df3" componentID="7354704a-d87c-11e0-b05b-763c4824019b" name="图形相位调整器" presetName="（自定义）">
+              <busConfig><![CDATA[{"in":[{"layout":[100,101],"name":"立体声放大","type":0}],"out":[{"layout":[100,101],"name":"立体声缩小","type":0}]}]]></busConfig>
+              <presetChunkData><![CDATA[AIA7RwAAgD+EH/w8ED74PAAAAAAAAAAAuMVtOgAAgD8AAAAAAAAAAAAA4EAPdFo6AAAAP/AcET8AAAM/mpkRPwAAkD4WsiA/AACwPTMzMz8AAACAMzNrPwAAAIAAAIA/AAAAgA==]]></presetChunkData>
+            </component>
+          </slot>
+          <slot powered="true" slotIndex="4">
+            <component componentGuid="a41c8cc9-db8f-4236-bb9d-f3d7b6ac3cf0" componentID="e0b23f05-f1a7-4ef7-9b50-7ec3e3002058" name="强制限幅" presetName="（自定义）">
+              <busConfig><![CDATA[{"in":[{"layout":[100,101],"name":"","type":0}],"out":[{"layout":[100,101],"name":"","type":0}]}]]></busConfig>
+              <parameter index="0" name="最大振幅" parameterValue="0.999000012874603271484375"/>
+              <parameter index="1" name="输入增强" parameterValue="0.666666686534881591796875"/>
+              <parameter index="2" name="预测时间" parameterValue="0.13333301246166229248046875"/>
+              <parameter index="3" name="释放时间" parameterValue="0.375"/>
+              <parameter index="4" name="链接声道" parameterValue="1"/>
+              <parameter index="5" name="衰减至天花板" parameterValue="0"/>
+              <parameter index="6" name="限制实际峰值" parameterValue="0"/>
+            </component>
+          </slot>
+        </effectsRack>
+        <editParameter parameterIndex="0" slotIndex="4294967280"/>
+        <audioClip clipAutoCrossfade="true" crossFadeHeadClipID="-1" crossFadeTailClipID="-1" endPoint="5836645" fileID="5" hue="-1" id="0" lockedInTime="false" looped="false" name="顾浅-但偏偏风渐渐" offline="false" select="true" sourceInPoint="48489" sourceOutPoint="196992" startPoint="5688142" zOrder="0">
+          <effectsRack preFader="true">
+            <component componentGuid="5f4983f5-fb65-45ef-bc28-9a45efd3c25f" componentID="Audition.ComponentGroup" id="rackMix" powered="true">
+              <parameter index="0" parameterValue="0"/>
+              <parameter index="1" parameterValue="0"/>
+            </component>
+            <component componentGuid="05cd5da0-baef-4354-a669-005dfe1db713" id="rackInput" powered="true">
+              <parameter index="0" parameterValue="1"/>
+              <parameter index="1" parameterValue="0"/>
+            </component>
+            <component componentGuid="b261a80b-0f32-4489-a58f-18246a7154f8" id="rackOutput" powered="true">
+              <parameter index="0" parameterValue="1"/>
+              <parameter index="1" parameterValue="0"/>
+            </component>
+            <slot powered="false" slotIndex="0">
+              <component componentGuid="815fe4d4-4ed5-41be-88dd-6d1d616d9c6c" componentID="c6762838-e451-4d22-9c90-b0eaa734605a" editorHeight="593" editorLeft="116" editorTop="533" editorWidth="730" name="降噪" presetName="强降噪">
+                <busConfig><![CDATA[{"in":[{"layout":[100,101],"name":"","type":0}],"out":[{"layout":[100,101],"name":"","type":0}]}]]></busConfig>
+                <presetChunkData><![CDATA[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]]></presetChunkData>
+              </component>
+            </slot>
+            <slot powered="false" slotIndex="1">
+              <component componentGuid="ea05c534-d2e5-4a8a-ba92-65ba94613f8d" componentID="f83ad984-04c6-4474-b8c0-e31d98875cfe" editorHeight="566" editorLeft="668" editorTop="317" editorWidth="585" name="自适应降噪" presetName="（自定义）">
+                <busConfig><![CDATA[{"in":[{"layout":[100,101],"name":"","type":0}],"out":[{"layout":[100,101],"name":"","type":0}]}]]></busConfig>
+                <parameter index="0" name="降噪幅度" parameterValue="0.507407128810882568359375"/>
+                <parameter index="1" name="噪声量" parameterValue="0.41481482982635498046875"/>
+                <parameter index="2" name="微调噪声基准" parameterValue="0.60000002384185791015625"/>
+                <parameter index="3" name="信号阈值" parameterValue="0.5625"/>
+                <parameter index="4" name="频谱衰减率" parameterValue="0.386605739593505859375"/>
+                <parameter index="5" name="宽频保留" parameterValue="0.20000000298023223876953125"/>
+                <parameter index="6" name="FFT 大小" parameterValue="0.0078125"/>
+                <parameter index="7" name="高品质模式（较慢）" parameterValue="1"/>
+                <parameter index="8" name="正在处理" parameterValue="0"/>
+              </component>
+            </slot>
+            <slot powered="false" slotIndex="2">
+              <component componentGuid="d80567b4-50c4-4899-a42a-ef2c9a2d52bb" componentID="99c2e75f-0bdb-48d8-8b51-2bac2e26b2cf" editorHeight="546" editorLeft="368" editorTop="379" editorWidth="572" name="卷积混响" presetName="（自定义）">
+                <busConfig><![CDATA[{"in":[{"layout":[100,101],"name":"","type":0}],"out":[{"layout":[100,101],"name":"","type":0}]}]]></busConfig>
+                <presetChunkData><![CDATA[BiBuYWZldFMIAAAAAQAAAAAAyEIAAMhCAACMQgAAkkIAAAAAAADIQgAAQMAMAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA]]></presetChunkData>
+              </component>
+            </slot>
+          </effectsRack>
+          <component componentGuid="f73b150e-53a3-48df-a214-8b8f16719dc4" componentID="Audition.Fader" id="clipGain" name="volume" powered="true">
+            <parameter index="0" name="volume" parameterValue="1"/>
+            <parameter index="1" name="static gain" parameterValue="1"/>
+          </component>
+          <component componentGuid="9e36b50e-5538-4104-a062-e99e8c9b53c9" componentID="Audition.Mute" id="clipMute" name="Mute" powered="true">
+            <parameter index="0" parameterValue="0"/>
+            <parameter index="1" name="mute" parameterValue="0"/>
+          </component>
+          <component componentGuid="12b88c78-2ce7-4f32-869b-e4b77677d424" componentID="Audition.StereoPanner" id="clipPan" name="StereoPanner" powered="true">
+            <parameter index="0" name="声像" parameterValue="0"/>
+          </component>
+          <fadeIn crossFadeLinkType="linkedAsymmetric" endPoint="0" shape="19" startPoint="0" type="log"/>
+          <fadeOut crossFadeLinkType="linkedAsymmetric" endPoint="148503" shape="19" startPoint="148503" type="log"/>
+          <editParameter parameterIndex="0" slotIndex="4294967280"/>
+          <editParameter parameterIndex="0" slotIndex="4294967281"/>
+          <channelMap>
+            <channel index="0" sourceIndex="0"/>
+            <channel index="1" sourceIndex="1"/>
+          </channelMap>
+        </audioClip>
+        <audioClip clipAutoCrossfade="true" crossFadeHeadClipID="-1" crossFadeTailClipID="-1" endPoint="6019129" fileID="6" hue="-1" id="1" lockedInTime="false" looped="false" name="江希然-把距离吹的好远" offline="false" select="false" sourceInPoint="9600" sourceOutPoint="172729" startPoint="5856000" zOrder="3">
+          <component componentGuid="d54c793d-b987-4750-829f-4ff7a1da98fc" componentID="Audition.Fader" id="clipGain" name="volume" powered="true">
+            <parameter index="0" name="volume" parameterValue="1"/>
+            <parameter index="1" name="static gain" parameterValue="1"/>
+          </component>
+          <component componentGuid="b437ffa5-6db3-4ddf-90b9-0b773dc99670" componentID="Audition.Mute" id="clipMute" name="Mute" powered="true">
+            <parameter index="0" parameterValue="0"/>
+            <parameter index="1" name="mute" parameterValue="0"/>
+          </component>
+          <component componentGuid="50f3c7a8-5a4d-401b-8059-31d7cd6de848" componentID="Audition.StereoPanner" id="clipPan" name="StereoPanner" powered="true">
+            <parameter index="0" name="声像" parameterValue="0"/>
+          </component>
+          <fadeIn crossFadeLinkType="linkedAsymmetric" endPoint="0" shape="19" startPoint="0" type="log"/>
+          <fadeOut crossFadeLinkType="linkedAsymmetric" endPoint="163129" shape="19" startPoint="163129" type="log"/>
+          <editParameter parameterIndex="0" slotIndex="4294967281"/>
+          <editParameter parameterIndex="0" slotIndex="4294967280"/>
+          <channelMap>
+            <channel index="0" sourceIndex="0"/>
+            <channel index="1" sourceIndex="1"/>
+          </channelMap>
+        </audioClip>
+      </audioTrack>
+      <audioTrack automationLaneOpenState="false" id="10008" index="8" select="false" visible="true">
+        <trackParameters trackHeight="72" trackHue="326" trackMinimized="false">
+          <name>轨道 3</name>
+        </trackParameters>
+        <trackAudioParameters audioChannelType="stereo" automationMode="1" monitoring="false" recordArmed="false" solo="false" soloSafe="false">
+          <trackOutput outputID="10000" type="trackID"/>
+          <trackInput inputID="1"/>
+          <component componentGuid="3358c3f0-64cd-44db-81f4-fca13f21bed2" componentID="Audition.Fader" id="trackFader" name="volume" powered="true">
+            <parameter index="0" name="volume" parameterValue="1"/>
+            <parameter index="1" name="static gain" parameterValue="1"/>
+          </component>
+          <component componentGuid="114591f6-5dc4-439d-9461-395f53dbee43" componentID="Audition.Mute" id="trackMute" name="Mute" powered="true">
+            <parameter index="0" parameterValue="0"/>
+            <parameter index="1" name="mute" parameterValue="0"/>
+          </component>
+          <component componentGuid="d5868165-a242-4871-9dc0-5e667c887a80" componentID="Audition.StereoPanner" id="trackPan" name="StereoPanner" powered="true">
+            <parameter index="0" name="声像" parameterValue="0"/>
+          </component>
+          <component componentGuid="a94cd976-07b4-43f7-80e9-0ec16f5391ed" componentID="Audition.EQ" id="trackEQ" name="EQ" powered="false">
+            <parameter index="0" name="下限频率" parameterValue="0.000834028352983295917510986328125"/>
+            <parameter index="1" name="下限增益" parameterValue="0.5"/>
+            <parameter index="2" name="上限频率" parameterValue="0.74979150295257568359375"/>
+            <parameter index="3" name="上限频率增益" parameterValue="0.5"/>
+            <parameter index="4" name="EQ 频段 1 中置频率" parameterValue="0.00125104258768260478973388671875"/>
+            <parameter index="5" name="EQ 频段 1 Q" parameterValue="0.000199989997781813144683837890625"/>
+            <parameter index="6" name="EQ 频段 1 增益" parameterValue="0.5"/>
+            <parameter index="7" name="EQ 频段 1 启用" parameterValue="1"/>
+            <parameter index="8" name="EQ 频段 2 中置频率" parameterValue="0.0075062550604343414306640625"/>
+            <parameter index="9" name="EQ 频段 2 Q" parameterValue="0.000199989997781813144683837890625"/>
+            <parameter index="10" name="EQ 频段 2 增益" parameterValue="0.5"/>
+            <parameter index="11" name="EQ 频段 2 启用" parameterValue="1"/>
+            <parameter index="12" name="EQ 频段 3 中置频率" parameterValue="0.0325271077454090118408203125"/>
+            <parameter index="13" name="EQ 频段 3 Q" parameterValue="0.000199989997781813144683837890625"/>
+            <parameter index="14" name="EQ 频段 3 增益" parameterValue="0.5"/>
+            <parameter index="15" name="EQ 频段 3 启用" parameterValue="1"/>
+            <parameter index="16" name="EQ 频段 4 中置频率" parameterValue="0.13261051476001739501953125"/>
+            <parameter index="17" name="EQ 频段 4 Q" parameterValue="0.000199989997781813144683837890625"/>
+            <parameter index="18" name="EQ 频段 4 增益" parameterValue="0.5"/>
+            <parameter index="19" name="EQ 频段 4 启用" parameterValue="1"/>
+            <parameter index="20" name="EQ 频段 5 中置频率" parameterValue="0.532944142818450927734375"/>
+            <parameter index="21" name="EQ 频段 5 Q" parameterValue="0.000199989997781813144683837890625"/>
+            <parameter index="22" name="EQ 频段 5 增益" parameterValue="0.5"/>
+            <parameter index="23" name="EQ 频段 5 启用" parameterValue="1"/>
+            <parameter index="24" name="增益" parameterValue="0.666666686534881591796875"/>
+            <parameter index="25" name="恒定 Q" parameterValue="1"/>
+            <parameter index="26" name="下限滤镜顺序" parameterValue="0"/>
+            <parameter index="27" name="上限频率滤镜顺序" parameterValue="0"/>
+            <parameter index="28" name="超静音模式" parameterValue="0"/>
+            <parameter index="29" name="下限启用" parameterValue="1"/>
+            <parameter index="30" name="上限频率启用" parameterValue="1"/>
+            <parameter index="31" name="原始采样率" parameterValue="0.25"/>
+            <parameter index="32" name="EQ 频段 1 频带宽" parameterValue="0.002499990165233612060546875"/>
+            <parameter index="33" name="EQ 频段 2 频段宽度" parameterValue="0.0099999904632568359375"/>
+            <parameter index="34" name="EQ 频段 3 频段宽度" parameterValue="0.0399999916553497314453125"/>
+            <parameter index="35" name="EQ 频段 4 频段宽度" parameterValue="0.15999998152256011962890625"/>
+            <parameter index="36" name="EQ 频段 5 频段宽度" parameterValue="0.63999998569488525390625"/>
+            <parameter index="37" name="高通滤波启用" parameterValue="0"/>
+            <parameter index="38" name="高通切除频率" parameterValue="0"/>
+            <parameter index="39" name="高通斜率" parameterValue="0.4000000059604644775390625"/>
+            <parameter index="40" name="低通滤波启用" parameterValue="0"/>
+            <parameter index="41" name="低通切除频率" parameterValue="0.833194315433502197265625"/>
+            <parameter index="42" name="低通斜率" parameterValue="0.4000000059604644775390625"/>
+            <parameter index="43" name="不使用" parameterValue="0"/>
+            <parameter index="44" name="下限图示范围" parameterValue="1"/>
+          </component>
+        </trackAudioParameters>
+        <editParameter parameterIndex="0" slotIndex="4294967280"/>
+      </audioTrack>
+      <masterTrack automationLaneOpenState="false" id="10000" index="9" select="false" visible="true">
+        <trackParameters trackHeight="72" trackHue="-1" trackMinimized="false">
+          <name>混合</name>
+        </trackParameters>
+        <trackAudioParameters audioChannelType="stereo" automationMode="1" monitoring="false" recordArmed="false" solo="false" soloSafe="true">
+          <trackOutput outputID="1" type="hardwareOutput"/>
+          <trackInput inputID="-1"/>
+          <component componentGuid="9de328b7-741f-405a-93bd-af4b682df18f" componentID="Audition.Fader" id="trackFader" name="volume" powered="true">
+            <parameter index="0" name="volume" parameterValue="1"/>
+            <parameter index="1" name="static gain" parameterValue="1"/>
+          </component>
+          <component componentGuid="51934362-e30a-4de9-8647-095bf2396b24" componentID="Audition.Mute" id="trackMute" name="Mute" powered="true">
+            <parameter index="0" parameterValue="0"/>
+            <parameter index="1" name="mute" parameterValue="0"/>
+          </component>
+          <component componentGuid="db194a02-3689-4180-8978-0a74bad1ce38" componentID="Audition.StereoPanner" id="trackPan" name="StereoPanner" powered="true">
+            <parameter index="0" name="声像" parameterValue="0"/>
+          </component>
+          <component componentGuid="adf3338f-a9e5-4201-adf5-1e6048188ca4" componentID="Audition.EQ" id="trackEQ" name="EQ" powered="false">
+            <parameter index="0" name="下限频率" parameterValue="0.000834028352983295917510986328125"/>
+            <parameter index="1" name="下限增益" parameterValue="0.5"/>
+            <parameter index="2" name="上限频率" parameterValue="0.74979150295257568359375"/>
+            <parameter index="3" name="上限频率增益" parameterValue="0.5"/>
+            <parameter index="4" name="EQ 频段 1 中置频率" parameterValue="0.00125104258768260478973388671875"/>
+            <parameter index="5" name="EQ 频段 1 Q" parameterValue="0.000199989997781813144683837890625"/>
+            <parameter index="6" name="EQ 频段 1 增益" parameterValue="0.5"/>
+            <parameter index="7" name="EQ 频段 1 启用" parameterValue="1"/>
+            <parameter index="8" name="EQ 频段 2 中置频率" parameterValue="0.0075062550604343414306640625"/>
+            <parameter index="9" name="EQ 频段 2 Q" parameterValue="0.000199989997781813144683837890625"/>
+            <parameter index="10" name="EQ 频段 2 增益" parameterValue="0.5"/>
+            <parameter index="11" name="EQ 频段 2 启用" parameterValue="1"/>
+            <parameter index="12" name="EQ 频段 3 中置频率" parameterValue="0.0325271077454090118408203125"/>
+            <parameter index="13" name="EQ 频段 3 Q" parameterValue="0.000199989997781813144683837890625"/>
+            <parameter index="14" name="EQ 频段 3 增益" parameterValue="0.5"/>
+            <parameter index="15" name="EQ 频段 3 启用" parameterValue="1"/>
+            <parameter index="16" name="EQ 频段 4 中置频率" parameterValue="0.13261051476001739501953125"/>
+            <parameter index="17" name="EQ 频段 4 Q" parameterValue="0.000199989997781813144683837890625"/>
+            <parameter index="18" name="EQ 频段 4 增益" parameterValue="0.5"/>
+            <parameter index="19" name="EQ 频段 4 启用" parameterValue="1"/>
+            <parameter index="20" name="EQ 频段 5 中置频率" parameterValue="0.532944142818450927734375"/>
+            <parameter index="21" name="EQ 频段 5 Q" parameterValue="0.000199989997781813144683837890625"/>
+            <parameter index="22" name="EQ 频段 5 增益" parameterValue="0.5"/>
+            <parameter index="23" name="EQ 频段 5 启用" parameterValue="1"/>
+            <parameter index="24" name="增益" parameterValue="0.666666686534881591796875"/>
+            <parameter index="25" name="恒定 Q" parameterValue="1"/>
+            <parameter index="26" name="下限滤镜顺序" parameterValue="0"/>
+            <parameter index="27" name="上限频率滤镜顺序" parameterValue="0"/>
+            <parameter index="28" name="超静音模式" parameterValue="0"/>
+            <parameter index="29" name="下限启用" parameterValue="1"/>
+            <parameter index="30" name="上限频率启用" parameterValue="1"/>
+            <parameter index="31" name="原始采样率" parameterValue="0.25"/>
+            <parameter index="32" name="EQ 频段 1 频带宽" parameterValue="0.002499990165233612060546875"/>
+            <parameter index="33" name="EQ 频段 2 频段宽度" parameterValue="0.0099999904632568359375"/>
+            <parameter index="34" name="EQ 频段 3 频段宽度" parameterValue="0.0399999916553497314453125"/>
+            <parameter index="35" name="EQ 频段 4 频段宽度" parameterValue="0.15999998152256011962890625"/>
+            <parameter index="36" name="EQ 频段 5 频段宽度" parameterValue="0.63999998569488525390625"/>
+            <parameter index="37" name="高通滤波启用" parameterValue="0"/>
+            <parameter index="38" name="高通切除频率" parameterValue="0"/>
+            <parameter index="39" name="高通斜率" parameterValue="0.4000000059604644775390625"/>
+            <parameter index="40" name="低通滤波启用" parameterValue="0"/>
+            <parameter index="41" name="低通切除频率" parameterValue="0.833194315433502197265625"/>
+            <parameter index="42" name="低通斜率" parameterValue="0.4000000059604644775390625"/>
+            <parameter index="43" name="不使用" parameterValue="0"/>
+            <parameter index="44" name="下限图示范围" parameterValue="1"/>
+          </component>
+        </trackAudioParameters>
+        <editParameter parameterIndex="0" slotIndex="4294967280"/>
+      </masterTrack>
+    </tracks>
+    <sessionState ctiPosition="6019538" smpteStart="0">
+      <selectionState selectionDuration="336465" selectionStart="5685922"/>
+      <viewState horizontalViewDuration="1261588" horizontalViewStart="5689708" trackControlsWidth="224" verticalScrollOffset="-48"/>
+      <timeFormatState beatsPerBar="4" beatsPerMinute="120" customFrameRate="12" linkToDefaultTimeSettings="true" noteLength="4" subdivisions="16" timeCodeDropFrame="false" timeCodeFrameRate="30" timeCodeNTSC="false" timeFormat="timeFormatDecimal"/>
+      <mixingOptionState defaultPanModeLogarithmic="false" panPower="-3" playOverlappingClips="false"/>
+    </sessionState>
+    <xmpMetadata><![CDATA[<?xpacket begin="﻿" id="W5M0MpCehiHzreSzNTczkc9d"?>
+<x:xmpmeta xmlns:x="adobe:ns:meta/" x:xmptk="Adobe XMP Core 9.0-c001 152.deb9585, 2024/02/06-08:36:10        ">
+   <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+      <rdf:Description rdf:about=""
+            xmlns:xmp="http://ns.adobe.com/xap/1.0/"
+            xmlns:xmpMM="http://ns.adobe.com/xap/1.0/mm/"
+            xmlns:stEvt="http://ns.adobe.com/xap/1.0/sType/ResourceEvent#"
+            xmlns:stRef="http://ns.adobe.com/xap/1.0/sType/ResourceRef#"
+            xmlns:dc="http://purl.org/dc/elements/1.1/"
+            xmlns:xmpDM="http://ns.adobe.com/xmp/1.0/DynamicMedia/">
+         <xmp:CreatorTool>Adobe Audition 25.0 (Windows)</xmp:CreatorTool>
+         <xmp:CreateDate>2025-12-05T22:48:09+08:00</xmp:CreateDate>
+         <xmp:MetadataDate>2025-12-10T11:45:58+08:00</xmp:MetadataDate>
+         <xmp:ModifyDate>2025-12-10T11:45:58+08:00</xmp:ModifyDate>
+         <xmpMM:InstanceID>xmp.iid:83dc83c7-15c5-9e49-bfa9-857435aed8a1</xmpMM:InstanceID>
+         <xmpMM:DocumentID>xmp.did:83dc83c7-15c5-9e49-bfa9-857435aed8a1</xmpMM:DocumentID>
+         <xmpMM:OriginalDocumentID>xmp.did:d28552d1-284a-cd41-92a1-35f3fe4e13e7</xmpMM:OriginalDocumentID>
+         <xmpMM:History>
+            <rdf:Seq>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:d28552d1-284a-cd41-92a1-35f3fe4e13e7</stEvt:instanceID>
+                  <stEvt:when>2025-12-05T22:48:09+08:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe Audition 25.0 (Windows)</stEvt:softwareAgent>
+                  <stEvt:changed>/metadata</stEvt:changed>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:e31cd019-781f-984a-944b-f0baf1c29759</stEvt:instanceID>
+                  <stEvt:when>2025-12-05T23:06:06+08:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe Audition 25.0 (Windows)</stEvt:softwareAgent>
+                  <stEvt:changed>/metadata</stEvt:changed>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:3c44be81-85cd-b643-8569-b1eda096acac</stEvt:instanceID>
+                  <stEvt:when>2025-12-05T23:06:06+08:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe Audition 25.0 (Windows)</stEvt:softwareAgent>
+                  <stEvt:changed>/</stEvt:changed>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:a9ad57f0-4e18-664c-a6ba-26ad7bb329cc</stEvt:instanceID>
+                  <stEvt:when>2025-12-07T22:39:50+08:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe Audition 25.0 (Windows)</stEvt:softwareAgent>
+                  <stEvt:changed>/metadata</stEvt:changed>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:75ad676b-6c95-184b-b98a-681b0dc2b2cd</stEvt:instanceID>
+                  <stEvt:when>2025-12-07T22:39:50+08:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe Audition 25.0 (Windows)</stEvt:softwareAgent>
+                  <stEvt:changed>/</stEvt:changed>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:3c1f4c03-8c16-0245-b15f-f443aee9b1d0</stEvt:instanceID>
+                  <stEvt:when>2025-12-07T22:40:17+08:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe Audition 25.0 (Windows)</stEvt:softwareAgent>
+                  <stEvt:changed>/metadata</stEvt:changed>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:43f84e4b-e0df-c94c-a7d7-ac562045cdd1</stEvt:instanceID>
+                  <stEvt:when>2025-12-07T22:40:17+08:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe Audition 25.0 (Windows)</stEvt:softwareAgent>
+                  <stEvt:changed>/</stEvt:changed>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:b38f6e9e-f5e6-2747-ad6a-17cc4fb901c7</stEvt:instanceID>
+                  <stEvt:when>2025-12-07T22:40:33+08:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe Audition 25.0 (Windows)</stEvt:softwareAgent>
+                  <stEvt:changed>/metadata</stEvt:changed>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:e3a41957-c42a-a647-95c1-f9280cfd2da1</stEvt:instanceID>
+                  <stEvt:when>2025-12-07T22:40:33+08:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe Audition 25.0 (Windows)</stEvt:softwareAgent>
+                  <stEvt:changed>/</stEvt:changed>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:2b7aa0f6-5443-de4c-a15f-2cce94c9e9e6</stEvt:instanceID>
+                  <stEvt:when>2025-12-08T12:44:06+08:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe Audition 25.0 (Windows)</stEvt:softwareAgent>
+                  <stEvt:changed>/metadata</stEvt:changed>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:aac52f81-0f49-5f46-b2f9-74a541e923a5</stEvt:instanceID>
+                  <stEvt:when>2025-12-08T12:44:06+08:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe Audition 25.0 (Windows)</stEvt:softwareAgent>
+                  <stEvt:changed>/</stEvt:changed>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:190da526-7ec4-a149-aa30-1fa696b75d8b</stEvt:instanceID>
+                  <stEvt:when>2025-12-09T13:44:50+08:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe Audition 25.0 (Windows)</stEvt:softwareAgent>
+                  <stEvt:changed>/metadata</stEvt:changed>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:ff241d4c-ed12-fe4a-8c0a-2ad2cdfa644e</stEvt:instanceID>
+                  <stEvt:when>2025-12-09T13:44:50+08:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe Audition 25.0 (Windows)</stEvt:softwareAgent>
+                  <stEvt:changed>/</stEvt:changed>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:18ba2ffd-84fd-8f41-819b-f2a64981efb9</stEvt:instanceID>
+                  <stEvt:when>2025-12-09T18:20:41+08:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe Audition 25.0 (Windows)</stEvt:softwareAgent>
+                  <stEvt:changed>/metadata</stEvt:changed>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:397f8bb5-d7bd-964b-b84d-c7521167cb51</stEvt:instanceID>
+                  <stEvt:when>2025-12-09T18:20:41+08:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe Audition 25.0 (Windows)</stEvt:softwareAgent>
+                  <stEvt:changed>/</stEvt:changed>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:31e10559-cad7-8248-b725-2426ec3799c5</stEvt:instanceID>
+                  <stEvt:when>2025-12-10T11:45:58+08:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe Audition 25.0 (Windows)</stEvt:softwareAgent>
+                  <stEvt:changed>/metadata</stEvt:changed>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:83dc83c7-15c5-9e49-bfa9-857435aed8a1</stEvt:instanceID>
+                  <stEvt:when>2025-12-10T11:45:58+08:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe Audition 25.0 (Windows)</stEvt:softwareAgent>
+                  <stEvt:changed>/</stEvt:changed>
+               </rdf:li>
+            </rdf:Seq>
+         </xmpMM:History>
+         <xmpMM:DerivedFrom rdf:parseType="Resource">
+            <stRef:instanceID>xmp.iid:31e10559-cad7-8248-b725-2426ec3799c5</stRef:instanceID>
+            <stRef:documentID>xmp.did:3c44be81-85cd-b643-8569-b1eda096acac</stRef:documentID>
+            <stRef:originalDocumentID>xmp.did:d28552d1-284a-cd41-92a1-35f3fe4e13e7</stRef:originalDocumentID>
+         </xmpMM:DerivedFrom>
+         <dc:format>application/xml</dc:format>
+         <xmpDM:Tracks>
+            <rdf:Bag>
+               <rdf:li rdf:parseType="Resource">
+                  <xmpDM:trackName>CuePoint Markers</xmpDM:trackName>
+                  <xmpDM:trackType>Cue</xmpDM:trackType>
+                  <xmpDM:frameRate>f48000</xmpDM:frameRate>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <xmpDM:trackName>CD Track Markers</xmpDM:trackName>
+                  <xmpDM:trackType>Track</xmpDM:trackType>
+                  <xmpDM:frameRate>f48000</xmpDM:frameRate>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <xmpDM:trackName>Subclip Markers</xmpDM:trackName>
+                  <xmpDM:trackType>InOut</xmpDM:trackType>
+                  <xmpDM:frameRate>f48000</xmpDM:frameRate>
+               </rdf:li>
+            </rdf:Bag>
+         </xmpDM:Tracks>
+      </rdf:Description>
+   </rdf:RDF>
+</x:xmpmeta>
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                           
+<?xpacket end="w"?>]]></xmpMetadata>
+    <clipGroups/>
+    <metronome enabled="false" pattern="downBeat subdivision subdivision subdivision " soundSet="sticks">
+      <metronomeTrack automationLaneOpenState="false" id="40000" index="0" select="false" visible="false">
+        <trackParameters trackHeight="77" trackHue="-1" trackMinimized="false">
+          <name>节拍器</name>
+        </trackParameters>
+        <trackAudioParameters audioChannelType="mono" automationMode="1" monitoring="false" recordArmed="false" solo="false" soloSafe="true">
+          <trackOutput outputID="10000" type="trackID"/>
+          <trackInput inputID="-1"/>
+          <component componentGuid="d8668016-887e-4c83-ab78-dde38ebe2a2d" componentID="Audition.Fader" id="trackFader" name="volume" powered="true">
+            <parameter index="0" name="volume" parameterValue="0.50118720531463623046875"/>
+            <parameter index="1" name="static gain" parameterValue="1"/>
+          </component>
+          <component componentGuid="085aaa28-9a02-4edc-8af5-616328853490" componentID="Audition.Mute" id="trackMute" name="Mute" powered="true">
+            <parameter index="0" parameterValue="0"/>
+            <parameter index="1" name="mute" parameterValue="0"/>
+          </component>
+          <component componentGuid="53c8c0fa-d45e-4157-b323-e7cb460a64d3" componentID="Audition.StereoPanner" id="trackPan" name="StereoPanner" powered="true">
+            <parameter index="0" name="声像" parameterValue="0"/>
+          </component>
+          <component componentGuid="c4d0f212-2f4d-44db-a7ec-1c927b11228d" componentID="Audition.EQ" id="trackEQ" name="EQ" powered="false">
+            <parameter index="0" name="下限频率" parameterValue="0.000834028352983295917510986328125"/>
+            <parameter index="1" name="下限增益" parameterValue="0.5"/>
+            <parameter index="2" name="上限频率" parameterValue="0.74979150295257568359375"/>
+            <parameter index="3" name="上限频率增益" parameterValue="0.5"/>
+            <parameter index="4" name="EQ 频段 1 中置频率" parameterValue="0.00125104258768260478973388671875"/>
+            <parameter index="5" name="EQ 频段 1 Q" parameterValue="0.000199989997781813144683837890625"/>
+            <parameter index="6" name="EQ 频段 1 增益" parameterValue="0.5"/>
+            <parameter index="7" name="EQ 频段 1 启用" parameterValue="1"/>
+            <parameter index="8" name="EQ 频段 2 中置频率" parameterValue="0.0075062550604343414306640625"/>
+            <parameter index="9" name="EQ 频段 2 Q" parameterValue="0.000199989997781813144683837890625"/>
+            <parameter index="10" name="EQ 频段 2 增益" parameterValue="0.5"/>
+            <parameter index="11" name="EQ 频段 2 启用" parameterValue="1"/>
+            <parameter index="12" name="EQ 频段 3 中置频率" parameterValue="0.0325271077454090118408203125"/>
+            <parameter index="13" name="EQ 频段 3 Q" parameterValue="0.000199989997781813144683837890625"/>
+            <parameter index="14" name="EQ 频段 3 增益" parameterValue="0.5"/>
+            <parameter index="15" name="EQ 频段 3 启用" parameterValue="1"/>
+            <parameter index="16" name="EQ 频段 4 中置频率" parameterValue="0.13261051476001739501953125"/>
+            <parameter index="17" name="EQ 频段 4 Q" parameterValue="0.000199989997781813144683837890625"/>
+            <parameter index="18" name="EQ 频段 4 增益" parameterValue="0.5"/>
+            <parameter index="19" name="EQ 频段 4 启用" parameterValue="1"/>
+            <parameter index="20" name="EQ 频段 5 中置频率" parameterValue="0.532944142818450927734375"/>
+            <parameter index="21" name="EQ 频段 5 Q" parameterValue="0.000199989997781813144683837890625"/>
+            <parameter index="22" name="EQ 频段 5 增益" parameterValue="0.5"/>
+            <parameter index="23" name="EQ 频段 5 启用" parameterValue="1"/>
+            <parameter index="24" name="增益" parameterValue="0.666666686534881591796875"/>
+            <parameter index="25" name="恒定 Q" parameterValue="1"/>
+            <parameter index="26" name="下限滤镜顺序" parameterValue="0"/>
+            <parameter index="27" name="上限频率滤镜顺序" parameterValue="0"/>
+            <parameter index="28" name="超静音模式" parameterValue="0"/>
+            <parameter index="29" name="下限启用" parameterValue="1"/>
+            <parameter index="30" name="上限频率启用" parameterValue="1"/>
+            <parameter index="31" name="原始采样率" parameterValue="0.25"/>
+            <parameter index="32" name="EQ 频段 1 频带宽" parameterValue="0.002499990165233612060546875"/>
+            <parameter index="33" name="EQ 频段 2 频段宽度" parameterValue="0.0099999904632568359375"/>
+            <parameter index="34" name="EQ 频段 3 频段宽度" parameterValue="0.0399999916553497314453125"/>
+            <parameter index="35" name="EQ 频段 4 频段宽度" parameterValue="0.15999998152256011962890625"/>
+            <parameter index="36" name="EQ 频段 5 频段宽度" parameterValue="0.63999998569488525390625"/>
+            <parameter index="37" name="高通滤波启用" parameterValue="0"/>
+            <parameter index="38" name="高通切除频率" parameterValue="0"/>
+            <parameter index="39" name="高通斜率" parameterValue="0.4000000059604644775390625"/>
+            <parameter index="40" name="低通滤波启用" parameterValue="0"/>
+            <parameter index="41" name="低通切除频率" parameterValue="0.833194315433502197265625"/>
+            <parameter index="42" name="低通斜率" parameterValue="0.4000000059604644775390625"/>
+            <parameter index="43" name="不使用" parameterValue="0"/>
+            <parameter index="44" name="下限图示范围" parameterValue="1"/>
+          </component>
+        </trackAudioParameters>
+        <editParameter parameterIndex="0" slotIndex="4294967280"/>
+      </metronomeTrack>
+    </metronome>
+    <properties>
+      <property key="EssentialSoundConfigurations">[{"Guid":"a8b40e3e-13e7-4c1f-b382-96058f1f691d","Name":"$$$/app/Presets/DefaultPresetName=(Default)","PresetData":{"ModeID":"ambience","Models":{"model_ducking":{},"model_loudness":{"DefaultLoudness":{"type":"float","value":-30},"LoudnessStandard":{"type":"std::uint32_t","value":0},"MaxLoudness":{"type":"float","value":-12},"MinLoudness":{"type":"float","value":-42}},"model_soundeffects":{"ReverbPresets":{"type":"tree::any","value":{"$$$/app/Presets/EssentialSound/ReverbPreset/LargeRoomAmbience=Large Room Ambience":{"type":"array::float","value":[0.05150749906897545,0.32432401180267334,0.2929289937019348,0.30000001192092896,0.20000000298023224,0,0.14285700023174286,0.4000000059604645,0.5,0.699999988079071,0.30000001192092896,0.2512562870979309,0.03125]},"$$$/app/Presets/EssentialSound/ReverbPreset/OutsideAmbience=Outside Ambience":{"type":"array::float","value":[0.09170850366353989,0.04389389976859093,1,0.5,0.20000000298023224,0.800000011920929,0.18367299437522888,1,0.5,0,0.800000011920929,0.2512562870979309,0.03125]},"$$$/app/Presets/EssentialSound/ReverbPreset/RoomAmbience=Room Ambience":{"type":"array::float","value":[0.0577889010310173,0.44944900274276733,0.49494898319244385,0.8999999761581421,0.10000000149011612,0.15000000596046448,0.08163270354270935,0.4000000059604645,0.5,0.800000011920929,0.20000000298023224,0.2512562870979309,0.03125]},"$$$/app/Presets/EssentialSound/ReverbPreset/WindEffect=Wind Effect":{"type":"array::float","value":[0.1959799975156784,0.6896899938583374,0.6969699859619141,0.25,0.5,0.5,0.2346940040588379,0.5199999809265137,0.5,0.75,0.25,0.2512562870979309,0.03125]}}}},"model_stereowidth":{},"model_volume":{"MaxGain":{"type":"float","value":15},"MinGain":{"type":"float","value":-60}}},"Version":1},"Type":"1c19ca71-c24c-49cd-8dd5-2cc46018507a","Version":1},{"Guid":"58dc27a8-6a2a-480c-bd0c-4b45fff346a6","Name":"$$$/app/Presets/DefaultPresetName=(Default)","PresetData":{"ModeID":"dialog","Models":{"model_clarity":{"EQPresets":{"type":"tree::any","value":{"$$$/app/Presets/EssentialSound/EQPreset/BackgroundVoice=Background Voice":{"type":"array::float","value":[0.12099699676036835,0.5,0.39240506291389465,0,0.5,0.5,0.5,0.5,0.5,0.47827938199043274,0.4577268958091736,0.45778733491897583,0.47946760058403015,0.5,0]},"$$$/app/Presets/EssentialSound/EQPreset/Intercom=Intercom":{"type":"array::float","value":[0.19432899355888367,0.5,1,0,0.07149998843669891,0.07149998843669891,0.07149998843669891,0.40238627791404724,0.48571401834487915,0.5,0.5515574812889099,0.5960257649421692,0.22246670722961426,0.07149998843669891,0]},"$$$/app/Presets/EssentialSound/EQPreset/LockedInTheTrunk=Locked in the Trunk":{"type":"array::float","value":[0.12099699676036835,0.5,0.797468364238739,0,0.5,0.5,0.5,0.5,0.5,0.32846158742904663,0.15721426904201508,0.15721426904201508,0.15721426904201508,0.15721426904201508,0]},"$$$/app/Presets/EssentialSound/EQPreset/OldRadio=Old Radio":{"type":"array::float","value":[0.12099699676036835,0.5,0.797468364238739,0,0.15721426904201508,0.15721426904201508,0.15721426904201508,0.2844204008579254,0.48315632343292236,0.364984929561615,0.5285388827323914,0.4351150095462799,0.2715468406677246,0.15721426904201508,0]},"$$$/app/Presets/EssentialSound/EQPreset/OnTheTelephone=On the Telephone":{"type":"array::float","value":[0.12099699676036835,0.5,0.39240506291389465,0,0.328642874956131,0.328642874956131,0.328642874956131,0.328642874956131,0.48571401834487915,0.5307139754295349,0.5307139754295349,0.48357096314430237,0.328642874956131,0.328642874956131,0]},"$$$/app/Presets/EssentialSound/EQPreset/OutsideOfTheRoom=Outside of the Room":{"type":"array::float","value":[0.12099699676036835,0.5,0.797468364238739,0,0.4253937005996704,0.47865453362464905,0.5,0.5,0.48571401834487915,0.40073278546333313,0.25656309723854065,0.15721426904201508,0.15721426904201508,0.15721426904201508,0]},"$$$/app/Presets/EssentialSound/EQPreset/PodcastVoice=Podcast Voice":{"type":"array::float","value":[0.12099699676036835,0.5,0.39240506291389465,0,0.5,0.5,0.5,0.5178940892219543,0.507703423500061,0.5,0.5178940892219543,0.528114914894104,0.5102812647819519,0.5,0]},"$$$/app/Presets/EssentialSound/EQPreset/SubtleBoostHighTone=Subtle Boost (High Tone)":{"type":"array::float","value":[0.09655340015888214,0.5,0.29113924503326416,0,0.5,0.5,0.5,0.5,0.5,0.519334077835083,0.5464289784431458,0.5270676612854004,0.5,0.5,0]},"$$$/app/Presets/EssentialSound/EQPreset/SubtleBoostLowTone=Subtle Boost (Low Tone)":{"type":"array::float","value":[0.09655340015888214,0.5,0.29113924503326416,0,0.5,0.5,0.5,0.5,0.5,0.5135338306427002,0.5464289784431458,0.519334077835083,0.5,0.5,0]},"$$$/app/Presets/EssentialSound/EQPreset/ThatPublicRadioSound=That Public Radio Sound":{"type":"array::float","value":[0.12099699676036835,0.5,0.797468364238739,0,0.15721426904201508,0.15721426904201508,0.15721426904201508,0.3633434474468231,0.4946831166744232,0.5,0.5,0.5,0.5,0.5,0]},"$$$/app/Presets/EssentialSound/EQPreset/VocalPresence=Vocal Presence":{"type":"array::float","value":[0.09655340015888214,0.5,0.324894517660141,0,0.3572143018245697,0.3572143018245697,0.4642857015132904,0.47857141494750977,0.4763694703578949,0.4957035481929779,0.5592495799064636,0.5652339458465576,0.5085929036140442,0.46992480754852295,0]}}}},"model_loudness":{"DefaultLoudness":{"type":"float","value":-23},"LoudnessStandard":{"type":"std::uint32_t","value":0},"MaxLoudness":{"type":"float","value":-12},"MinLoudness":{"type":"float","value":-42}},"model_restoration":{"ReduceNoiseMaxSetting":{"type":"array::float","value":[1,0,0,0,0]},"ReduceNoiseMinSetting":{"type":"array::float","value":[0,0,0,0,0]},"ReduceReverbMaxSetting":{"type":"array::float","value":[1,0,1,0,0]},"ReduceReverbMinSetting":{"type":"array::float","value":[0,0,1,0,0]},"ReduceRumbleMaxSetting":{"type":"array::float","value":[1,0.06158357858657837,0.375,0,0,0.0008333333535119891,1,0,1,0.0390625,0.0008340898784808815,0,0.004166666883975267,0.00022554649331141263,0.004687500186264515,0.75,0.0052083334885537624,0.75,1,0.75,0.004052083473652601,0.75,0.004262916743755341,0.00022554649331141263,0.006488333456218243,0.00022554649331141263,0.006866666954010725,0.75,0.007170416414737701,0.00022554649331141263,0.01041458360850811,0.00022554649331141263,0.010900000110268593,0.75,0.011407917365431786,0.00022554649331141263,0.015606249682605267,0.00022554649331141263,0.016333334147930145,0.75,0.017094582319259644,0.00022554649331141263,0.026243748143315315,0.00022554649331141263,0.0274666678160429,0.75,0.02874666638672352,0.00022554649331141263,0.04165875166654587,0.00022554649331141263,0.04360000044107437,0.75,0.04563166946172714,0.00022554649331141263,0.06242458149790764,0.00022554649331141263,0.06533333659172058,0.75,0.06837750226259232,0.00022554649331141263,0.10497540980577469,0.00022554649331141263,0.1098666712641716,0.75,0.11498583108186722,0.00022554649331141263,0.16663584113121033,0.00022554649331141263,0.17440000176429749,0.75,0.18252624571323395,0.00022554649331141263,0.918749988079071,0.00022554649331141263,1,0.00022554649331141263,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]},"ReduceRumbleMinSetting":{"type":"array::float","value":[1,0.06158357858657837,0.375,0,0,0.0008333333535119891,1,0,1,0.0390625,0.0008340898784808815,0.75,0.004166666883975267,0.75,0.004687500186264515,0.75,0.0052083334885537624,0.75,1,0.75,0.918749988079071,0.6123724579811096,1,0.6123724579811096,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]},"ReduceSibilanceMaxSetting":{"type":"array::float","value":[0.5,0.1998399794101715,0.18367347121238708,0.260869562625885,0.5270270109176636,0,1,0,0,0,0,0.75,1,1,0.4000000059604645]},"ReduceSibilanceMinSetting":{"type":"array::float","value":[0.875,0.1998399794101715,0.18367347121238708,0.19130434095859528,0.2567567527294159,0,1,0,0,0,0,0.75,1,1,0.4000000059604645]}},"model_soundeffects":{"ReverbPresets":{"type":"tree::any","value":{"$$$/app/Presets/EssentialSound/ReverbPreset/Auditorium=Auditorium":{"type":"array::float","value":[0.013047545216977596,0.15895412862300873,1,0.8999999761581421,0,0.5200743675231934,0.41663265228271484,0.46000000834465027,0.5,0.7300000190734863,0.1599999964237213,0.7537688612937927,0.03125]},"$$$/app/Presets/EssentialSound/ReverbPreset/Church=Church":{"type":"array::float","value":[0.032663315534591675,0.39939939975738525,0.7979797720909119,0.25,0.5,0.5,0.2297959178686142,0.7200000286102295,0.5,0.6299999952316284,0.8799999952316284,0.2512562870979309,0.03125]},"$$$/app/Presets/EssentialSound/ReverbPreset/LargeReflectiveRoom=Large Reflective Room":{"type":"array::float","value":[0.007444901391863823,0.09898842126131058,0.7989053726196289,0.8999999761581421,0.10000000149011612,0.40110713243484497,0.060284845530986786,0.2752297818660736,0.5,0.7300000190734863,0.3199999928474426,0.2512562870979309,0.03125]},"$$$/app/Presets/EssentialSound/ReverbPreset/OutsideTheClub=Outside the Club":{"type":"array::float","value":[0.020615793764591217,0.05013655871152878,0.6969699859619141,0.25,0.09435578435659409,0.22242647409439087,0.1071428582072258,0.2800000011920929,0.5,0.7300000190734863,0.46000000834465027,0.2512562870979309,0.03125]},"$$$/app/Presets/EssentialSound/ReverbPreset/SmallDryRoom=Small Dry Room":{"type":"array::float","value":[0.24623115360736847,0.6997500061988831,0.2929289937019348,0.4000000059604645,0.20000000298023224,0.4000000059604645,0.03928571566939354,0.10000000149011612,0.5,1,0.5,0.7537688612937927,0.03125]},"$$$/app/Presets/EssentialSound/ReverbPreset/ThickenVoice=Thicken Voice":{"type":"array::float","value":[0.1959799975156784,0.23931467533111572,0.6969699859619141,0.25,0.5,0.5399999618530273,0.020408162847161293,0.20945435762405396,0.5,1,0.3499999940395355,0.2512562870979309,0.03125]},"$$$/app/Presets/EssentialSound/ReverbPreset/WarmRoom=Warm Room":{"type":"array::float","value":[0.02010050229728222,0.07407407462596893,0.49494948983192444,0.4000000059604645,0.7496030926704407,0.4000000059604645,0.1239795908331871,0.6700000166893005,0.5,0.8500000238418579,0.5600000023841858,0.2512562870979309,0.03125]},"$$$/app/Presets/EssentialSound/ReverbPreset/WarmVoice=Warm Voice":{"type":"array::float","value":[0.19597989320755005,0.8998998999595642,0,0.4000000059604645,0.20000000298023224,0.4000000059604645,0.10204081982374191,0.09000000357627869,0.5,1,0.30000001192092896,0.2512562870979309,0.03125]}}}},"model_volume":{"MaxGain":{"type":"float","value":15},"MinGain":{"type":"float","value":-60}}},"Version":2},"Type":"1c19ca71-c24c-49cd-8dd5-2cc46018507a","Version":1},{"Guid":"353811fa-4179-435e-8e5e-23028ba15a7a","Name":"$$$/app/Presets/DefaultPresetName=(Default)","PresetData":{"ModeID":"generic","Models":{"model_loudness":{"DefaultLoudness":{"type":"float","value":-24},"LoudnessStandard":{"type":"std::uint32_t","value":0},"MaxLoudness":{"type":"float","value":-12},"MinLoudness":{"type":"float","value":-42}},"model_volume":{"MaxGain":{"type":"float","value":15},"MinGain":{"type":"float","value":-60}}},"Version":1},"Type":"1c19ca71-c24c-49cd-8dd5-2cc46018507a","Version":1},{"Guid":"31ba96a6-5d3e-4d89-b1e1-1dbe3c055d0c","Name":"$$$/app/Presets/DefaultPresetName=(Default)","PresetData":{"ModeID":"music","Models":{"model_ducking":{},"model_duration":{},"model_loudness":{"DefaultLoudness":{"type":"float","value":-25},"LoudnessStandard":{"type":"std::uint32_t","value":0},"MaxLoudness":{"type":"float","value":-12},"MinLoudness":{"type":"float","value":-42}},"model_volume":{"MaxGain":{"type":"float","value":15},"MinGain":{"type":"float","value":-60}}},"Version":1},"Type":"1c19ca71-c24c-49cd-8dd5-2cc46018507a","Version":1},{"Guid":"cea63332-1adc-44a9-a6eb-5490f965859b","Name":"$$$/app/Presets/DefaultPresetName=(Default)","PresetData":{"ModeID":"sfx","Models":{"model_loudness":{"DefaultLoudness":{"type":"float","value":-21},"LoudnessStandard":{"type":"std::uint32_t","value":0},"MaxLoudness":{"type":"float","value":-12},"MinLoudness":{"type":"float","value":-42}},"model_pan":{},"model_soundeffects":{"ReverbPresets":{"type":"tree::any","value":{"$$$/app/Presets/EssentialSound/ReverbPreset/HeavyReverb=Heavy Reverb":{"type":"array::float","value":[0.13316600024700165,0.2992990016937256,1,0.9599999785423279,0.8500000238418579,0.5,0.5153059959411621,0.30000001192092896,0.5,0.5,0.5,0.2512562870979309,0.0625]},"$$$/app/Presets/EssentialSound/ReverbPreset/LightReverb=Light Reverb":{"type":"array::float","value":[0.0954774022102356,0.2992990016937256,0.09090910106897354,1,1,0.800000011920929,0.2244900017976761,0.6000000238418579,0.5,0.699999988079071,0.30000001192092896,0.2512562870979309,0.0625]},"$$$/app/Presets/EssentialSound/ReverbPreset/OutsideReverb=Outside Reverb":{"type":"array::float","value":[0.09170850366353989,0.04389389976859093,1,0.5,0.20000000298023224,0.800000011920929,0.18367299437522888,1,0.5,0,0.800000011920929,0.2512562870979309,0.0625]},"$$$/app/Presets/EssentialSound/ReverbPreset/RoomReverb=Room Reverb":{"type":"array::float","value":[0.0577889010310173,0.44944900274276733,0.49494898319244385,0.8999999761581421,0.10000000149011612,0.15000000596046448,0.08163270354270935,0.4000000059604645,0.5,0.800000011920929,0.20000000298023224,0.2512562870979309,0.0625]}}}},"model_volume":{"MaxGain":{"type":"float","value":15},"MinGain":{"type":"float","value":-60}}},"Version":1},"Type":"1c19ca71-c24c-49cd-8dd5-2cc46018507a","Version":1}]</property>
+    </properties>
+  </session>
+
+  <files>
+    <file absolutePath="D:\Qingtian-Tulpa\晴天\Backup\已导入文件\周杰伦 - 晴天 48000 1.wav" id="0" importerPrivateSettings="Compression:0:0;LargeFileSupport:0:0;SampleType:0:1;" mediaHandler="AmioWav" recoveryID="165eed33-0bbb-4e76-b96e-56f09bf2e382" relativePath="../晴天/Backup/已导入文件/周杰伦 - 晴天 48000 1.wav"/>
+    <file absolutePath="D:\Qingtian-Tulpa\晴天\Backup\已导入文件\晴天 (伴奏) 48000 1.wav" id="1" importerPrivateSettings="Compression:0:0;LargeFileSupport:0:0;SampleType:0:1;" mediaHandler="AmioWav" recoveryID="12d8f20a-6560-4990-a154-a998a87862fe" relativePath="../晴天/Backup/已导入文件/晴天 (伴奏) 48000 1.wav"/>
+    <file absolutePath="D:\Qingtian-Tulpa\晴天\Backup\已导入文件\残障终至-童年的荡秋千，随记忆一直晃到现在.wav" id="2" mediaHandler="ImporterHost" recoveryID="28f8ea2d-6f18-4248-b355-663eaa32cbd2" relativePath="../晴天/Backup/已导入文件/残障终至-童年的荡秋千，随记忆一直晃到现在.wav"/>
+    <file absolutePath="D:\Qingtian-Tulpa\素材\弥望新\刮风这天我试着握着你手.mp3" id="3" importerPrivateSettings="BitsPerSecond:0:320000;CompressionQuality:0:4;CompressionType:0:0;Encoder:0:1279348037;" mediaHandler="AmioMP3" recoveryID="e360bdae-fc70-47a0-be08-21b3243d8515" relativePath="../素材/弥望新/刮风这天我试着握着你手.mp3"/>
+    <file absolutePath="D:\Qingtian-Tulpa\素材\童话世界\晴天 最后一句.wav" id="4" importerPrivateSettings="Compression:0:0;LargeFileSupport:0:0;SampleType:0:1;" mediaHandler="AmioWav" recoveryID="c2a658c5-7415-4e4c-a474-2f6e6071088f" relativePath="../素材/童话世界/晴天 最后一句.wav"/>
+    <file absolutePath="D:\Qingtian-Tulpa\素材\指针系统\顾浅-但偏偏风渐渐.mp3" id="5" importerPrivateSettings="BitsPerSecond:0:320000;CompressionQuality:0:4;CompressionType:0:0;Encoder:0:1279348037;" mediaHandler="AmioMP3" recoveryID="33287110-2246-4a5c-99e0-7c741ced759c" relativePath="../素材/指针系统/顾浅-但偏偏风渐渐.mp3"/>
+    <file absolutePath="D:\Qingtian-Tulpa\素材\指针系统\江希然-把距离吹的好远.mp3" id="6" importerPrivateSettings="BitsPerSecond:0:320000;CompressionQuality:0:4;CompressionType:0:0;Encoder:0:1279348037;" mediaHandler="AmioMP3" recoveryID="42c6f06c-df8d-41b7-b1ad-d335293de092" relativePath="../素材/指针系统/江希然-把距离吹的好远.mp3"/>
+  </files>
+
+  <audioDevice inputID="22222222-2222-2222-2222-22222222" outputID="11111111-1111-1111-1111-11111111">
+    <inputPort id="1" name="默认立体声输入"/>
+    <inputPort id="2" name="[01M] 系统默认 - 麦克风 (USB Audio Device) 1"/>
+    <inputPort id="3" name="[02M] 系统默认 - 麦克风 (USB Audio Device) 2"/>
+    <inputPort id="4" name="[01S] 系统默认 - 麦克风 (USB Audio Device) 1"/>
+    <outputPort id="1" name="默认输出"/>
+    <outputPort id="2" name="[01M] 系统默认 - 扬声器 (USB Audio Device) 1"/>
+    <outputPort id="3" name="[02M] 系统默认 - 扬声器 (USB Audio Device) 2"/>
+    <outputPort id="4" name="默认立体声输出"/>
+    <outputPort id="5" name="[01S] 系统默认 - 扬声器 (USB Audio Device) 1"/>
+    <outputPort id="6" name="默认环绕声输出"/>
+  </audioDevice>
+
+</sesx>
